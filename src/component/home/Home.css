@@ -1,0 +1,65 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 90vh;
+}
+.home-content {
+  font-family: var(--font-family);
+}
+.home-content h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.home-content p {
+  margin: 1.5rem 0;
+  font-size: 1.3rem;
+  color: var(--color-one);
+}
+.home-img img {
+  width: 100%;
+  height: 70vh;
+}
+/* .btn {
+  font-size: 1.2rem;
+  padding: 0.4rem 1rem;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 50%;
+  /* '1' after the linear-gradient declaration is the border-image-slice value. By using 1, we specify we want a single border region. */
+/* border-image: var(--gradient-text) 1;
+} */
+
+.home-content-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* ------------------ */
+.btn {
+  font-size: 1.2rem;
+  padding: 0.4rem 1rem;
+  color: var(--color-white);
+  cursor: pointer;
+  background-size: 300% 100%;
+  background-image: linear-gradient(
+    to right,
+    #313291,
+    #40e495,
+    #36c47f,
+    #2bb673
+  );
+  box-shadow: 0 4px 15px 0 var(--color-one-light);
+  border-radius: 10px;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.btn:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}

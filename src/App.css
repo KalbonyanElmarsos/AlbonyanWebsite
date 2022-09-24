@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+/* ----------------------Roots-------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Manrope:wght@300;400;700;800&display=swap");
+
+:root {
+  --font-family: "El Messiri", "Manrope", sans-serif;
+
+  --gradient-text: linear-gradient(89.97deg, #313291 1.84%, #67ba71 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #313291 -13.86%, #67ba71 99.55%);
+
+  --color-white: #fff;
+  --color-one: #313291;
+  --color-one-dark: #0f0f2c;
+  --color-one-light: #9899c8;
+  --color-two: #67ba71;
+  --color-two-dark: #152517;
+  --color-two-light: #a4d6aa;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* -----------------General------------------------------- */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+/* Radial Background . i use AngryTools Website */
+
+.gradient-text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-padding {
+  padding: 4rem 6rem;
+}
+
+.section-margin {
+  margin: 4rem 6rem;
+}
+.scale-up {
+  -webkit-animation: scale-up-tl 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: scale-up-tl 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+/**
+/**
+ * ----------------------------------------
+ * animation scale-up-tl
+ * ----------------------------------------
+ */
+@-webkit-keyframes scale-up-tl {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+  }
+}
+@keyframes scale-up-tl {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* -----------------Media Queries----------- */
+@media screen and (max-width: 700px) {
+  .section-padding {
+    padding: 4rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .section-margin {
+    margin: 4rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .section-padding {
+    padding: 4rem 2rem;
+  }
+
+  .section-margin {
+    margin: 4rem 2rem;
   }
 }
