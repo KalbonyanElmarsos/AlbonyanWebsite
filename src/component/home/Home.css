@@ -2,45 +2,64 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 90vh;
+  margin: 5rem 1rem;
+  gap: 2rem;
 }
+
 .home-content {
+  flex: 1;
   font-family: var(--font-family);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .home-content h1 {
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   text-align: center;
 }
+
+.home-content {
+  max-width: 40rem;
+}
+
 .home-content p {
+  text-align: center;
   margin: 1.5rem 0;
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: var(--color-one);
 }
+
+/* .home-img {
+  flex: 1;
+}
+
+ */
 .home-img img {
   width: 100%;
   height: 70vh;
 }
-/* .btn {
-  font-size: 1.2rem;
-  padding: 0.4rem 1rem;
-  border-width: 3px;
-  border-style: solid;
-  border-radius: 50%;
-  /* '1' after the linear-gradient declaration is the border-image-slice value. By using 1, we specify we want a single border region. */
-/* border-image: var(--gradient-text) 1;
-} */
 
 .home-content-buttons {
+  margin-top: 2rem;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  gap: 3rem;
 }
+
 /* ------------------ */
-.btn {
+.btn,
+.btn-two {
   font-size: 1.2rem;
   padding: 0.4rem 1rem;
-  color: var(--color-white);
   cursor: pointer;
+
+  border-radius: 10px;
+}
+
+.btn {
+  box-shadow: 0 4px 15px 0 var(--color-one-light);
+  color: var(--color-white);
   background-size: 300% 100%;
   background-image: linear-gradient(
     to right,
@@ -49,17 +68,131 @@
     #36c47f,
     #2bb673
   );
-  box-shadow: 0 4px 15px 0 var(--color-one-light);
-  border-radius: 10px;
   moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
+
 .btn:hover {
   background-position: 100% 0;
   moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+}
+
+/* -------btn-two----- */
+.btn-two {
+  border: 2px solid var(--color-two);
+  color: var(--color-two);
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-two:hover {
+  box-shadow: 0px 0px 25px 8px var(--color-two-light);
+}
+
+.home-content-icons {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.home-content-icon {
+  font-size: 1.7rem;
+  color: var(--color-one);
+  cursor: pointer;
+}
+
+.home-content-icon:hover {
+  color: var(--color-two);
+  transition: all 0.4s ease-in-out;
+}
+
+@media screen and (max-width: 1100px) {
+  .home-content h1 {
+    font-size: 2rem;
+  }
+
+  .home-content-buttons {
+    margin-top: 1rem;
+  }
+
+  .home {
+    margin: 4rem 1rem;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .home-img img {
+    height: 50vh;
+  }
+
+  .home-content-icons {
+    margin-top: 2rem;
+  }
+
+  .home {
+    margin: 5rem 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .home-content {
+    max-width: 50rem;
+  }
+
+  .home-content h1 {
+    font-size: 1.7rem;
+  }
+
+  .btn,
+  .btn-two {
+    font-size: 1rem;
+  }
+
+  .home-content-buttons {
+    margin-top: 0.5rem;
+  }
+
+  .home {
+    margin: 1rem;
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+
+  .home-img img {
+    height: 30vh;
+  }
+
+  .home-content p {
+    margin: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .home-content p {
+    margin: 0.5rem;
+  }
+
+  .home-content-icons {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .home {
+    gap: 1rem;
+  }
+
+  .home-content h1 {
+    font-size: 1.4rem;
+  }
+
+  .home-content p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
 }

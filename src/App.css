@@ -14,8 +14,12 @@
   --color-two: #67ba71;
   --color-two-dark: #152517;
   --color-two-light: #a4d6aa;
-}
 
+  --color-bg: #f0f8f1;
+
+  --box-shadow: 0px 5px 7px -2px rgba(0, 0, 0, 0.35);
+}
+/*   box-shadow: 0px 5px 7px -2px rgba(0, 0, 0, 0.35); */
 /* -----------------General------------------------------- */
 * {
   box-sizing: border-box;
@@ -26,14 +30,12 @@
 
 body {
   scroll-behavior: smooth;
+  font-family: var(--font-family);
 }
 
 a {
   color: unset;
   text-decoration: none;
-}
-li {
-  list-style: none;
 }
 
 /* Radial Background . i use AngryTools Website */
@@ -92,13 +94,18 @@ li {
 }
 
 /* -----------------Media Queries----------- */
+@media screen and (max-width: 1050px) {
+  .section-margin {
+    margin: 4rem;
+  }
+}
 @media screen and (max-width: 700px) {
   .section-padding {
     padding: 4rem;
   }
 
   .section-margin {
-    margin: 4rem;
+    margin: 2rem;
   }
 }
 @media screen and (max-width: 550px) {
@@ -107,6 +114,6 @@ li {
   }
 
   .section-margin {
-    margin: 4rem 2rem;
+    margin: 1rem;
   }
 }
