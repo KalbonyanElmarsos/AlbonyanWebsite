@@ -1,0 +1,8 @@
+.winners-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+  max-width: 1150px;
+  margin-top: 5rem;
+}

@@ -15,11 +15,11 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Subject />
+      {/* <Subject /> */}
       <Awards />
       <Tasks />
-      <Winners />
       <Way />
+      <Winners />
       <Footer />
     </div>
   );

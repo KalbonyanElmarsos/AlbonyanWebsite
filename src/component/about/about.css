@@ -66,6 +66,10 @@
   .about-items-item {
     max-width: 60rem;
   }
+  /* .about-items-flex {
+    max-width: 35rem;
+    flex-direction: row-reverse;
+  } */
 }
 @media screen and (max-width: 600px) {
   .about {

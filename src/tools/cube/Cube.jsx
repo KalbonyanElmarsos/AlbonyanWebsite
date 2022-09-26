@@ -4,6 +4,7 @@ import { SiCss3, SiJavascript, SiReact } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 
 import "./cube.css";
+
 const Cube = () => {
   return (
     <div className="cube">

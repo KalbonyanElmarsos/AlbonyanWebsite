@@ -1,0 +1,47 @@
+.way {
+  background-image: url("../../assest//background.jpg");
+
+  background-size: cover;
+}
+
+.way-content {
+  /* background: var(--color-white); */
+  background: var(--color-bg-way);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  max-width: 60rem;
+  margin: 0 auto;
+  box-shadow: var(--box-shadow);
+}
+.way-content h1 {
+  margin-bottom: 1rem;
+}
+.way-content p {
+  font-size: 1.2rem;
+  color: var(--color-one-dark);
+  margin-bottom: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+.way-content-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.way-content-buttons a {
+  color: var(--color-one-dark);
+  border: 1px solid var(--color-one-dark);
+}
+.way-content-buttons a:hover {
+  background: var(--color-one-dark);
+}
+@media screen and (max-width: 700px) {
+  .way-content p {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .way-content h1 {
+    margin-bottom: 0.6rem;
+  }
+}

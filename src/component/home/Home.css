@@ -47,52 +47,6 @@
   gap: 3rem;
 }
 
-/* ------------------ */
-.btn,
-.btn-two {
-  font-size: 1.2rem;
-  padding: 0.4rem 1rem;
-  cursor: pointer;
-
-  border-radius: 10px;
-}
-
-.btn {
-  box-shadow: 0 4px 15px 0 var(--color-one-light);
-  color: var(--color-white);
-  background-size: 300% 100%;
-  background-image: linear-gradient(
-    to right,
-    #313291,
-    #40e495,
-    #36c47f,
-    #2bb673
-  );
-  moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-.btn:hover {
-  background-position: 100% 0;
-  moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-/* -------btn-two----- */
-.btn-two {
-  border: 2px solid var(--color-two);
-  color: var(--color-two);
-  transition: all 0.4s ease-in-out;
-}
-
-.btn-two:hover {
-  box-shadow: 0px 0px 25px 8px var(--color-two-light);
-}
-
 .home-content-icons {
   margin-top: 3rem;
   display: flex;
@@ -146,11 +100,6 @@
 
   .home-content h1 {
     font-size: 1.7rem;
-  }
-
-  .btn,
-  .btn-two {
-    font-size: 1rem;
   }
 
   .home-content-buttons {

@@ -5,20 +5,28 @@
   --font-family: "El Messiri", "Manrope", sans-serif;
 
   --gradient-text: linear-gradient(89.97deg, #313291 1.84%, #67ba71 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #313291 -13.86%, #67ba71 99.55%);
+
+  --gradient-box: linear-gradient(
+    320deg,
+    rgba(49, 50, 145, 1) 0%,
+    rgba(97, 173, 106, 1) 100%
+  );
 
   --color-white: #fff;
   --color-one: #313291;
   --color-one-dark: #0f0f2c;
-  --color-one-light: #9899c8;
+  --color-one-light: #c6c7eb;
   --color-two: #67ba71;
   --color-two-dark: #152517;
   --color-two-light: #a4d6aa;
 
   --color-bg: #f0f8f1;
-
+  --color-bg-2: #b3ddb8;
+  --color-bg-way: rgba(255, 255, 255, 0.801);
   --box-shadow: 0px 5px 7px -2px rgba(0, 0, 0, 0.35);
+  --border-radius: 1rem;
 }
+
 /*   box-shadow: 0px 5px 7px -2px rgba(0, 0, 0, 0.35); */
 /* -----------------General------------------------------- */
 * {
@@ -38,13 +46,74 @@ a {
   text-decoration: none;
 }
 
-/* Radial Background . i use AngryTools Website */
+section {
+  padding: 4rem;
+  margin-bottom: 2rem;
+  /* margin-bottom: 4rem; */
+}
 
+section h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+ol {
+  list-style: arabic-indic;
+}
+
+h1,
 .gradient-text {
   background: var(--gradient-text);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* ------------------ */
+.btn-gradient,
+.btn-green {
+  font-size: 1.2rem;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn-gradient {
+  box-shadow: 0 4px 15px 0 var(--color-one-light);
+  color: var(--color-white);
+  background-size: 300% 100%;
+  background-image: linear-gradient(
+    to right,
+    #313291,
+    #40e495,
+    #36c47f,
+    #2bb673
+  );
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-gradient:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-green {
+  border: 2px solid var(--color-two);
+  color: var(--color-two);
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-green:hover {
+  box-shadow: var(--box-shadow);
+  background: var(--color-two);
+  color: var(--color-white);
 }
 
 .section-padding {
@@ -54,10 +123,12 @@ a {
 .section-margin {
   margin: 4rem 6rem;
 }
+
 .scale-up {
   -webkit-animation: scale-up-tl 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: scale-up-tl 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
+
 /**
 /**
  * ----------------------------------------
@@ -71,6 +142,7 @@ a {
     -webkit-transform-origin: 0% 0%;
     transform-origin: 0% 0%;
   }
+
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -78,6 +150,7 @@ a {
     transform-origin: 0% 0%;
   }
 }
+
 @keyframes scale-up-tl {
   0% {
     -webkit-transform: scale(0.5);
@@ -85,6 +158,7 @@ a {
     -webkit-transform-origin: 0% 0%;
     transform-origin: 0% 0%;
   }
+
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -95,25 +169,44 @@ a {
 
 /* -----------------Media Queries----------- */
 @media screen and (max-width: 1050px) {
-  .section-margin {
+  /* .section-margin {
     margin: 4rem;
   }
+   */
 }
-@media screen and (max-width: 700px) {
-  .section-padding {
+
+@media screen and (max-width: 800px) {
+  .btn-gradient,
+  .btn-green {
+    font-size: 1rem;
+  }
+  section {
+    padding: 1.5rem;
+  }
+  section h1 {
+    font-size: 1.7rem;
+  }
+  /* .section-padding {
     padding: 4rem;
   }
+  
 
   .section-margin {
     margin: 2rem;
   }
+   */
 }
+
 @media screen and (max-width: 550px) {
-  .section-padding {
+  section {
+    padding: 2rem;
+  }
+  /* .section-padding {
     padding: 4rem 2rem;
   }
+  
 
   .section-margin {
     margin: 1rem;
-  }
+  }*/
 }

@@ -1,5 +1,5 @@
 .subject {
-  height: 100vh;
+  /* height: 100vh; */
   padding: 2rem 1rem;
 }
 .subject h1 {
@@ -7,37 +7,80 @@
   color: var(--color-two-dark);
   margin-bottom: 2rem;
 }
-.subject-content {
-  display: flex;
-  gap: 2rem;
+.subject-container th {
+  font-size: 1.5rem;
+}
+.subject-container td {
+  font-weight: 700;
+  font-size: 1em;
 }
 
-.subject-content-items {
-  display: flex;
-  flex-direction: row-reverse;
-  /* flex-wrap: wrap; */
-  gap: 2rem;
+.subject-container {
+  text-align: center;
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+  /* display: table; */
+  /* padding: 0 0 8em 0; */
+  border-radius: 1rem;
+  border-collapse: collapse;
 }
-.subject-content-items-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 100px;
+
+.subject-container td,
+.subject-container th {
+  padding: 0.8rem 0.5rem;
+  /* padding-left: 2%; */
+  /* margin: 1rem; */
 }
-.subject-content-items-item-links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.subject-content-items-item h3 {
+td.subject-container-colspan {
   font-size: 1.2rem;
-  padding: 0.4rem 1rem;
-  border: 2px solid var(--color-two);
-  color: var(--color-two);
-  border-radius: 10px;
-  transition: all 0.4s ease-in-out;
+  color: var(--color-white);
+  background: var(--color-two-dark);
+  padding: 2px 0.3rem;
+  /* border-radius: 10px; */
 }
 
-.subject-content-items-item h3:hover {
-  box-shadow: 0px 0px 25px 8px var(--color-two-light);
+/* Background-color of the odd rows */
+.subject-container tr:nth-child(odd) {
+  background-color: var(--color-bg);
+}
+
+/* Background-color of the even rows */
+.subject-container tr:nth-child(even) {
+  /* background-color: var(--color-two-light); */
+}
+
+.subject-container th {
+  background-color: var(--color-bg-2);
+}
+
+/* .subject-container td:first-child {
+  color: #fb667a;
+} */
+
+.subject-container tr:hover {
+  /* background-color: var(--color-bg); */
+  -webkit-box-shadow: 0 6px 6px -6px #0e1119;
+  -moz-box-shadow: 0 6px 6px -6px #0e1119;
+  box-shadow: 0 6px 6px -6px #0e1119;
+}
+/* .subject-container td:hover {
+  background: var(--color-two-dark);
+  color: var(--color-white);
+} */
+.subject-container td:hover {
+  background: var(--color-bg-2);
+  color: var(--color-white);
+
+  transition: 0.4s ease;
+}
+
+@media (max-width: 800px) {
+  .subject {
+    padding: 0;
+  }
+  .subject-container td:nth-child(3),
+  .subject-container th:nth-child(3) {
+    display: none;
+  }
 }
