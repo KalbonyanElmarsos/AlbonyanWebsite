@@ -4,7 +4,7 @@ import "./way.css";
 
 const Way = () => {
   return (
-    <section className="way">
+    <section className="way" id="way">
       <div className="way-content">
         <h1>طريقة التسجيل</h1>
         <p>

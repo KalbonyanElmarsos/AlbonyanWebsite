@@ -20,15 +20,15 @@ const Testimonial = () => {
     }
   }, [index, people]);
 
-  //to change person every 5 s
-  // useEffect(() => {
-  //   let slider = setInterval(() => {
-  //     setIndex(index + 1);
-  //   }, 5000);
-  //   return () => {
-  //     clearInterval(slider);
-  //   };
-  // }, [index]);
+  // to change person every 5 s
+  useEffect(() => {
+    let slider = setInterval(() => {
+      setIndex(index + 1);
+    }, 5000);
+    return () => {
+      clearInterval(slider);
+    };
+  }, [index]);
 
   return (
     <section className="testimonial">

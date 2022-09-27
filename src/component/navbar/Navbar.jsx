@@ -10,7 +10,7 @@ const Menu = () => (
       <a href="#about">عن المسابقة</a>
     </p>
     <p>
-      <a href="#curriculum">المنهج</a>
+      <a href="#subject">المنهج</a>
     </p>
     <p>
       <a href="#awards">الجوائز</a>
@@ -19,10 +19,10 @@ const Menu = () => (
       <a href="#tasks">تسليمات المسابقة</a>
     </p>
     <p>
-      <a href="#winner"> الفائزون</a>
+      <a href="#way">طريقة التسجيل</a>
     </p>
     <p>
-      <a href="#way">طريقة التسجيل</a>
+      <a href="#winner"> الفائزون</a>
     </p>
   </>
 );

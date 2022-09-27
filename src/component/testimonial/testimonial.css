@@ -14,7 +14,7 @@
   position: relative;
   overflow: hidden;
   border-top: 5px solid var(--color-two);
-  border-bottom: 5px solid var(--color-two);
+  /* border-bottom: 5px solid var(--color-one); */
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
   position: relative;
@@ -52,7 +52,7 @@ article.nextSlide {
 
 .testimonial-content-information-opinion {
   line-height: 2;
-  color: var(--color-two);
+  color: var(--color-one);
   font-size: 1.1rem;
   font-weight: 700;
 }
@@ -70,17 +70,21 @@ article.nextSlide {
   width: 90px;
   height: 90px;
   object-fit: cover;
-  border: 2px solid var(--color-two-dark);
+  border-bottom: 3px solid var(--color-two);
+  border-top: 3px solid var(--color-two);
   box-shadow: var(--box-shadow);
+  transition: all 0.4s ease;
 }
-
+.testimonial-content-information-img:hover {
+  transform: scale(1.1);
+}
 .testimonial-content-information-text h4 {
-  color: var(--color-two-dark);
+  color: var(--color-one-dark);
   font-size: 1.2rem;
 }
 
 .testimonial-content-information-text p {
-  color: var(--color-two);
+  color: var(--color-one);
   margin-top: 2px;
 }
 

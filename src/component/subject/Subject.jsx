@@ -3,7 +3,7 @@ import "./subject.css";
 
 const Subject = () => {
   return (
-    <div className="subject">
+    <section className="subject" id="subject">
       <h1>منهج المسابقة</h1>
       <table class="subject-container">
         <thead>
@@ -23,74 +23,74 @@ const Subject = () => {
           <tr>
             <td>1</td>
             <td>
-              <a href="">Programming Foundations: Fundamentals</a>
+              <a href=""> Fundamentals</a>
             </td>
             <td>Linkedin Learning</td>
-            <td>2h 6m 40s</td>
+            <td>2h 6m </td>
           </tr>
           <tr>
             <td>2</td>
             <td>
-              <a href="">Programming Foundations: Beyond the Fundamentals</a>
+              <a href=""> Beyond the Fundamentals</a>
             </td>
             <td>Linkedin Learning</td>
-            <td>2h 6m 40s</td>
+            <td>2h 6m</td>
           </tr>
           <tr>
             <td>3</td>
             <td>
-              <a href="">Programming Foundations: Object-Oriented Design</a>
+              <a href=""> Object-Oriented Design</a>
             </td>
             <td>Linkedin Learning</td>
-            <td>2h 6m 40s</td>
+            <td>2h 6m</td>
           </tr>
           <tr>
             <td>4</td>
             <td>
-              <a href="">Programming Foundations: Data Structures</a>
+              <a href=""> Data Structures</a>
             </td>
             <td>Linkedin Learning</td>
-            <td>2h 6m 40s</td>
+            <td>2h 6m</td>
           </tr>
           <tr>
             <td>5</td>
             <td>
-              <a href="">Programming Foundations: Algorithms</a>
+              <a href=""> Algorithms</a>
             </td>
             <td>Linkedin Learning</td>
-            <td>2h 6m 40s</td>
+            <td>2h 6m</td>
           </tr>
           <tr>
             <td>6</td>
             <td>
-              <a href="">Programming Foundations: Design Patterns</a>
+              <a href=""> Design Patterns</a>
             </td>
             <td>Linkedin Learning</td>
-            <td>2h 6m 40s</td>
+            <td>2h 6m</td>
           </tr>
           <tr>
             <td>7</td>
             <td>
-              <a href="">Programming Foundations: Databases</a>
+              <a href=""> Databases</a>
             </td>
             <td>Linkedin Learning</td>
-            <td>2h 6m 40s</td>
+            <td>2h 6m</td>
           </tr>
           <tr>
             <td>8</td>
             <td>
-              <a href="">Programming Foundations: APIs and Web Services</a>
+              <a href=""> APIs and Web Services</a>
             </td>
             <td>Linkedin Learning</td>
-            <td>2h 6m 40s</td>
+            <td>2h 6m</td>
           </tr>
           <tr>
             <td>9</td>
             <td>
-              <a href="">Programming Foundations: Software Testing/QA</a>
+              <a href=""> Software Testing/QA</a>
             </td>
             <td>Linkedin Learning</td>
-            <td>2h 6m 40s</td>
+            <td>2h 6m</td>
           </tr>
           <tr>
             <td>10</td>
@@ -98,7 +98,7 @@ const Subject = () => {
               <a href="">Learning GitHub</a>
             </td>
             <td>Linkedin Learning</td>
-            <td>2h 6m 40s</td>
+            <td>2h 6m</td>
           </tr>
           <tr>
             <td className="subject-container-colspan" colspan="4">
@@ -113,7 +113,7 @@ const Subject = () => {
               </a>
             </td>
             <td>Udemy</td>
-            <td>2h 6m 40s</td>
+            <td>2h 6m</td>
           </tr>
           <tr>
             <td className="subject-container-colspan" colspan="4">
@@ -225,7 +225,7 @@ const Subject = () => {
           </tr>
         </tbody>
       </table>
-    </div>
+    </section>
   );
 };
 

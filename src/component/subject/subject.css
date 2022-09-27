@@ -2,17 +2,13 @@
   /* height: 100vh; */
   padding: 2rem 1rem;
 }
-.subject h1 {
-  text-align: center;
-  color: var(--color-two-dark);
-  margin-bottom: 2rem;
-}
+
 .subject-container th {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .subject-container td {
   font-weight: 700;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .subject-container {
@@ -28,14 +24,14 @@
 
 .subject-container td,
 .subject-container th {
-  padding: 0.8rem 0.5rem;
+  padding: 0.5rem 0.5rem;
   /* padding-left: 2%; */
   /* margin: 1rem; */
 }
 td.subject-container-colspan {
   font-size: 1.2rem;
   color: var(--color-white);
-  background: var(--color-two-dark);
+  background: var(--color-two);
   padding: 2px 0.3rem;
   /* border-radius: 10px; */
 }

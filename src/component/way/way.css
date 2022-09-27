@@ -1,12 +1,12 @@
 .way {
-  background-image: url("../../assest//background.jpg");
-
+  /* background-image: url("../../assest//background.jpg"); */
+  background: var(--color-one-dark);
   background-size: cover;
 }
 
 .way-content {
-  /* background: var(--color-white); */
-  background: var(--color-bg-way);
+  background: var(--color-white);
+  /* background: var(--color-bg-way); */
   border-radius: var(--border-radius);
   padding: 1rem;
   max-width: 60rem;
