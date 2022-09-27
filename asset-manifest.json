@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kalbonyanElmarsosWebsite/static/css/main.2b3383b0.css",
+    "main.js": "/kalbonyanElmarsosWebsite/static/js/main.d4823328.js",
+    "static/media/tasks.png": "/kalbonyanElmarsosWebsite/static/media/tasks.ad54127f5b7243aaca15.png",
+    "static/media/banner.png": "/kalbonyanElmarsosWebsite/static/media/banner.c3db6fff40aa7326e111.png",
+    "static/media/logo.png": "/kalbonyanElmarsosWebsite/static/media/logo.8d136f1a8026681caa92.png",
+    "static/media/AhmedMansour.jpg": "/kalbonyanElmarsosWebsite/static/media/AhmedMansour.01b9a843c7b61122825a.jpg",
+    "static/media/YousefMohamed.jpg": "/kalbonyanElmarsosWebsite/static/media/YousefMohamed.caaec6fdbd9480593f2d.jpg",
+    "static/media/mansourKoura.jpg": "/kalbonyanElmarsosWebsite/static/media/mansourKoura.52c42327e8195f27f574.jpg",
+    "static/media/MohamedTanash.jpg": "/kalbonyanElmarsosWebsite/static/media/MohamedTanash.34b1790d4817964bd060.jpg",
+    "static/media/AhmedSamir.jpg": "/kalbonyanElmarsosWebsite/static/media/AhmedSamir.e66c4e535756eabd62f7.jpg",
+    "static/media/FetianAnas.jpg": "/kalbonyanElmarsosWebsite/static/media/FetianAnas.c3b054ec1b9e4201e862.jpg",
+    "index.html": "/kalbonyanElmarsosWebsite/index.html",
+    "main.2b3383b0.css.map": "/kalbonyanElmarsosWebsite/static/css/main.2b3383b0.css.map",
+    "main.d4823328.js.map": "/kalbonyanElmarsosWebsite/static/js/main.d4823328.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b3383b0.css",
+    "static/js/main.d4823328.js"
+  ]
+}
