@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 0.8rem 0;
+  box-shadow: var(--box-shadow-footer);
+}
+.footer img {
+  width: 4.5rem;
+  height: 100%;
+}
+.footer p {
+  color: var(--color-one);
+}
+.footer-icons .icon {
+  font-size: 1rem;
+}
+@media screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

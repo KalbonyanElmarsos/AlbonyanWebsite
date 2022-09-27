@@ -1,0 +1,137 @@
+.testimonial {
+  background: var(--color-bg);
+  margin-bottom: 0;
+  padding-bottom: 5rem;
+}
+
+.testimonial-content {
+  background: var(--color-white);
+  margin: 0 auto;
+  margin-top: 4rem;
+  min-height: 18rem;
+  max-width: 50rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-top: 5px solid var(--color-two);
+  border-bottom: 5px solid var(--color-two);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  position: relative;
+}
+
+article {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 2rem auto;
+  opacity: 0;
+  transition: all 0.3s linear;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+article.activeSlide {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+article.lastSlide {
+  transform: translateX(-100%);
+}
+
+article.nextSlide {
+  transform: translateX(100%);
+}
+
+.testimonial-content-information-opinion {
+  line-height: 2;
+  color: var(--color-two);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.testimonial-content-information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.testimonial-content-information-img {
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border: 2px solid var(--color-two-dark);
+  box-shadow: var(--box-shadow);
+}
+
+.testimonial-content-information-text h4 {
+  color: var(--color-two-dark);
+  font-size: 1.2rem;
+}
+
+.testimonial-content-information-text p {
+  color: var(--color-two);
+  margin-top: 2px;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 70%;
+  transform: translateY(-50%);
+  color: var(--color-two);
+
+  display: grid;
+  place-items: center;
+  border-color: transparent;
+  font-size: 1.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.4s linear;
+}
+
+.prev:hover,
+.next:hover {
+  background: var(--color-two);
+  color: var(--color-white);
+}
+
+.prev {
+  left: 2%;
+}
+
+.next {
+  right: 2%;
+}
+
+@media (max-width: 750px) {
+  .testimonial-content-information-opinion {
+    margin: 1rem 0;
+  }
+
+  .testimonial-content {
+    height: 22rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonial-content {
+    height: 25rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .testimonial-content {
+    height: 30rem;
+  }
+}

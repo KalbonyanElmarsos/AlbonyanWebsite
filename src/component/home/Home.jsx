@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import banner from "../../assest/banner.png";
-import { BsTelegram, BsYoutube, BsLinkedin } from "react-icons/bs";
+import Icons from "../../tools/icons/Icons";
 const Home = () => {
   return (
     <div className="home ">
@@ -27,17 +27,9 @@ const Home = () => {
             جوائز المسابقة
           </a>
         </div>
-        <div className="home-content-icons">
-          <a className="home-content-icon">
-            <BsTelegram />
-          </a>
-          <a className="home-content-icon">
-            <BsYoutube />
-          </a>
-          <a className="home-content-icon">
-            <BsLinkedin />
-          </a>
-        </div>
+        {/* <div className="home-content-icons">
+          <Icons />
+        </div> */}
       </div>
       <div className="home-img">
         <img src={banner} alt="banner of home page" />

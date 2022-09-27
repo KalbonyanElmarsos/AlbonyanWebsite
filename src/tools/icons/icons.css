@@ -1,0 +1,23 @@
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.icon {
+  font-size: 1.6rem;
+  color: var(--color-white);
+  cursor: pointer;
+  background: var(--color-one);
+  border-radius: 4px;
+  padding: 3px;
+  transition: all 0.4s ease;
+}
+
+.icon:hover {
+  background: var(--color-two);
+}
+.icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

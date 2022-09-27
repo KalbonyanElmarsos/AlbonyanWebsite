@@ -8,6 +8,7 @@ import Winners from "./component/winners/Winners";
 import Footer from "./component/footer/Footer";
 import About from "./component/about/About";
 import Subject from "./component/subject/Subject";
+import Testimonial from "./component/testimonial/Testimonial";
 
 function App() {
   return (
@@ -15,11 +16,12 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      {/* <Subject /> */}
+      <Subject />
       <Awards />
       <Tasks />
       <Way />
       <Winners />
+      <Testimonial />
       <Footer />
     </div>
   );

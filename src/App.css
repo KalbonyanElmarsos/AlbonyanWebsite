@@ -24,10 +24,10 @@
   --color-bg-2: #b3ddb8;
   --color-bg-way: rgba(255, 255, 255, 0.801);
   --box-shadow: 0px 5px 7px -2px rgba(0, 0, 0, 0.35);
+  --box-shadow-footer: 0px -5px 7px 0px rgba(0, 0, 0, 0.35);
   --border-radius: 1rem;
 }
 
-/*   box-shadow: 0px 5px 7px -2px rgba(0, 0, 0, 0.35); */
 /* -----------------General------------------------------- */
 * {
   box-sizing: border-box;
