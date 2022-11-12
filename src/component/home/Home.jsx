@@ -19,11 +19,11 @@ const Home = () => {
         </p>
 
         <div className="home-content-buttons">
-          <a className="btn-gradient " href="/#about">
+          <a className="btn-gradient " href="#about">
             عن المسابقة
           </a>
 
-          <a className="btn-green" href="/#awards">
+          <a className="btn-green" href="#awards">
             جوائز المسابقة
           </a>
         </div>

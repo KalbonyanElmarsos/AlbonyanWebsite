@@ -1,0 +1,5 @@
+.trCourse td:hover {
+  background: var(--color-bg-2);
+  /* color: var(--color-white); */
+  transition: 0.4s ease;
+}

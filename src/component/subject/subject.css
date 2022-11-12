@@ -1,5 +1,4 @@
 .subject {
-  /* height: 100vh; */
   padding: 2rem 1rem;
 }
 
@@ -16,24 +15,13 @@
   overflow: hidden;
   width: 80%;
   margin: 0 auto;
-  /* display: table; */
-  /* padding: 0 0 8em 0; */
   border-radius: 1rem;
-  border-collapse: collapse;
+  /* border-collapse: collapse; */
 }
 
 .subject-container td,
 .subject-container th {
   padding: 0.5rem 0.5rem;
-  /* padding-left: 2%; */
-  /* margin: 1rem; */
-}
-td.subject-container-colspan {
-  font-size: 1.2rem;
-  color: var(--color-white);
-  background: var(--color-two);
-  padding: 2px 0.3rem;
-  /* border-radius: 10px; */
 }
 
 /* Background-color of the odd rows */
@@ -60,17 +48,33 @@ td.subject-container-colspan {
   -moz-box-shadow: 0 6px 6px -6px #0e1119;
   box-shadow: 0 6px 6px -6px #0e1119;
 }
-/* .subject-container td:hover {
-  background: var(--color-two-dark);
-  color: var(--color-white);
-} */
-.subject-container td:hover {
-  background: var(--color-bg-2);
-  color: var(--color-white);
 
-  transition: 0.4s ease;
+.button-row {
+  /* color: var(--color-white); */
+  /* background: var(--color-white); */
+  /* border: 1px dashed var(--color-two); */
 }
-
+.button-row td {
+  border: 1.5px solid var(--color-two);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background: var(--color-white);
+}
+.button-row button {
+  font-size: 1.5rem;
+  cursor: pointer;
+  background: none;
+  padding: 5px 1rem;
+  border: none;
+  color: var(--color-two);
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+.button-row button:hover {
+  /* letter-spacing: 1px; */
+  transform: scale(1.1);
+  /* color: var(--color-two-dark); */
+}
 @media (max-width: 800px) {
   .subject {
     padding: 0;

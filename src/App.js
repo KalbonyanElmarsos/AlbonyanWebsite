@@ -9,6 +9,7 @@ import Footer from "./component/footer/Footer";
 import About from "./component/about/About";
 import Subject from "./component/subject/Subject";
 import Testimonial from "./component/testimonial/Testimonial";
+import ScrollTop from "./tools/scrollTop/ScrollTop";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Winners />
       <Testimonial />
       <Footer />
+      <ScrollTop />
     </div>
   );
 }

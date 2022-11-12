@@ -1,0 +1,10 @@
+.subject-container-colspan {
+  font-size: 1.2rem;
+  color: var(--color-white);
+  background: var(--color-two);
+  padding: 2px 0.3rem;
+}
+/* .subject-container-colspan:hover {
+  color: var(--color-two-dark);
+  background: var(--color-two);
+} */
