@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kalbonyanElmarsosWebsite/static/css/main.bb00b60c.css",
-    "main.js": "/kalbonyanElmarsosWebsite/static/js/main.597713a0.js",
+    "main.js": "/kalbonyanElmarsosWebsite/static/js/main.8c11f507.js",
     "static/media/tasks.png": "/kalbonyanElmarsosWebsite/static/media/tasks.ad54127f5b7243aaca15.png",
     "static/media/salahMohamed.png": "/kalbonyanElmarsosWebsite/static/media/salahMohamed.40d700117f5a44368383.png",
     "static/media/banner.png": "/kalbonyanElmarsosWebsite/static/media/banner.c3db6fff40aa7326e111.png",
@@ -35,10 +35,10 @@
     "static/media/yousefShaban.jpg": "/kalbonyanElmarsosWebsite/static/media/yousefShaban.dd24efbce57e76627dbc.jpg",
     "index.html": "/kalbonyanElmarsosWebsite/index.html",
     "main.bb00b60c.css.map": "/kalbonyanElmarsosWebsite/static/css/main.bb00b60c.css.map",
-    "main.597713a0.js.map": "/kalbonyanElmarsosWebsite/static/js/main.597713a0.js.map"
+    "main.8c11f507.js.map": "/kalbonyanElmarsosWebsite/static/js/main.8c11f507.js.map"
   },
   "entrypoints": [
     "static/css/main.bb00b60c.css",
-    "static/js/main.597713a0.js"
+    "static/js/main.8c11f507.js"
   ]
 }
