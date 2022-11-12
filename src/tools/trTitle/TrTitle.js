@@ -4,7 +4,7 @@ import "./trTitle.css";
 const TrTitle = ({ title }) => {
   return (
     <tr>
-      <td colspan="4" className="subject-container-colspan">
+      <td colSpan="4" className="subject-container-colspan">
         {title}
       </td>
     </tr>

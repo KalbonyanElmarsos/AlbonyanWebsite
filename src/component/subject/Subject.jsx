@@ -14,7 +14,7 @@ const Subject = () => {
     <section className="subject" id="subject">
       <h1>منهج المسابقة</h1>
       {/* table */}
-      <table class="subject-container">
+      <table className="subject-container">
         <thead>
           <tr>
             <th>م </th>
@@ -191,7 +191,7 @@ const Subject = () => {
 
           {/* button to switch  */}
           <tr className="button-row">
-            <td colspan="4" className="subject-container-colspan">
+            <td colSpan="4" className="subject-container-colspan">
               <button onClick={switchMode}>
                 {open ? "إخفــاء باقــي المنهــج" : "عــرض باقــي المنهــج"}
               </button>
