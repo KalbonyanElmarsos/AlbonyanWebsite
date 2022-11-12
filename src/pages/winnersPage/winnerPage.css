@@ -1,0 +1,17 @@
+.winnersPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.winnersPage h1 {
+  margin-bottom: 5rem;
+}
+.winnersPage-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+  max-width: 1150px;
+  margin-bottom: 5rem;
+}

@@ -1,8 +1,55 @@
-.winners-content {
+.winners {
   display: flex;
-  flex-wrap: wrap;
-  gap: 3rem;
-  justify-content: center;
-  max-width: 1150px;
-  margin-top: 5rem;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+.winners img {
+  width: 90vw;
+  filter: drop-shadow(8px 8px 4px var(--color-one-light));
+}
+.winners-link {
+  margin: 4rem;
+  font-size: 1.3rem;
+  text-align: center;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.winners-arrow-icon {
+  font-size: 2rem;
+  animation: vibrate-1 0.5s linear infinite both;
+}
+
+@media (max-width: 500px) {
+  .winners-link {
+    font-size: 1rem;
+    margin: 2rem;
+  }
+}
+
+/* animation 
+ * ----------------------------------------
+ * animation vibrate-1
+ * ----------------------------------------
+ */
+@keyframes vibrate-1 {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
 }

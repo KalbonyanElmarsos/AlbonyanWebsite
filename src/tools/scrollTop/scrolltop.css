@@ -1,6 +1,8 @@
 .scroll {
   background-color: var(--color-one);
   transition: all 0.3s ease-in-out;
+  bottom: 20px;
+  right: 20px;
 }
 .scroll:hover {
   background-color: var(--color-two);
