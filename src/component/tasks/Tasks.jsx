@@ -7,7 +7,7 @@ const Tasks = () => {
     <section className="tasks" id="tasks">
       <h1>تسليمات المسابقة</h1>
       <div className="tasks-contents">
-        <img src={tasks} />
+        <img src={tasks} alt="hands of someone writing on computer" />
         <div className="tasks-contents-content">
           <ol>
             <li>عشر شهادات من Linkedin Learning .</li>
@@ -28,6 +28,7 @@ const Tasks = () => {
           <div className="tasks-contents-content-buttons">
             <a
               className="btn-green"
+              rel="noreferrer"
               target="_blank"
               href="https://github.com/KalbonyanElmarsos/Kalbonyan-Elmarsos"
             >
@@ -35,6 +36,7 @@ const Tasks = () => {
             </a>
             <a
               className="btn-green"
+              rel="noreferrer"
               target="_blank"
               href="https://docs.google.com/document/d/1sGWDB-Ee94LRqqeya_DlJLor9lG2i-47/edit"
             >
@@ -42,6 +44,7 @@ const Tasks = () => {
             </a>
             <a
               className="btn-green"
+              rel="noreferrer"
               target="_blank"
               href="https://tarek-radwan.web.app/"
             >

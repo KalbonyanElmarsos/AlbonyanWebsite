@@ -16,12 +16,13 @@ const Way = () => {
         <div className="way-content-buttons">
           <a
             target="_blank"
+            rel="noreferrer"
             className="btn-green"
             href="https://www.linkedin.com/learning/programming-foundations-fundamentals-3?contextUrn=urn%3Ali%3AlyndaLearningPath%3A56db2b643dd5596be4e4989b"
           >
             الكورس الأول
           </a>
-          <a className="btn-green" href="">
+          <a className="btn-green" href="" rel="noreferrer" target="_blank">
             الاستبيان
           </a>
         </div>

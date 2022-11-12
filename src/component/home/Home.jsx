@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import banner from "../../assest/banner.png";
-import Icons from "../../tools/icons/Icons";
+
 const Home = () => {
   return (
     <div className="home ">
@@ -27,9 +27,6 @@ const Home = () => {
             جوائز المسابقة
           </a>
         </div>
-        {/* <div className="home-content-icons">
-          <Icons />
-        </div> */}
       </div>
       <div className="home-img">
         <img src={banner} alt="banner of home page" />

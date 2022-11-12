@@ -4,7 +4,7 @@ import Navbar from "./component/navbar/Navbar";
 import Footer from "./component/footer/Footer";
 import ScrollTop from "./tools/scrollTop/ScrollTop";
 
-import { Switch, Route, Routes, Link } from "react-router-dom";
+import {  Route, Routes} from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import WinnersPage from "./pages/winnersPage/WinnersPage";
 function App() {

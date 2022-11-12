@@ -1,6 +1,5 @@
 import React from "react";
 import { TbArrowBigLeftLines } from "react-icons/tb";
-import CardWinners from "../../tools/cardWinners/CardWinners";
 import winners from "../../assest/winners/winners.png";
 
 import "./winners.css";
