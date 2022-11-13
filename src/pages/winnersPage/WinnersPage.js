@@ -25,6 +25,7 @@ import anasYousef from "../../assest/winners/anasYoussef.jpg";
 import mahmoudMohamed from "../../assest/winners/mahmoud05.jpg";
 import YousefShaban from "../../assest/winners/yousefShaban.jpg";
 import AmmarSaied from "../../assest/winners/ammarSaied.jpg";
+import Abdallah from "../../assest/winners/abdallah.jpg";
 import Flower from "../../assest/winners/flower.jpg";
 import niqapgirl from "../../assest/winners/nigabGril.jpg";
 
@@ -120,7 +121,7 @@ const WinnersPage = () => {
           linkedInLink="https://www.linkedin.com/in/salah-mohamed-1649b0234/"
         />
         <CardWinners
-          image={SalahMohamed}
+          image={Abdallah}
           name="عبدالله النشار"
           linkedInLink="https://www.linkedin.com/in/abdallah-elnashar-154a79190/"
         />

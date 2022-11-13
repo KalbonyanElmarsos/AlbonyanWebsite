@@ -1,16 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { BsTerminalFill, BsPeopleFill } from "react-icons/bs";
 import { GiTimeBomb } from "react-icons/gi";
 
 import "./about.css";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="about" id="about">
       <div className="about-container">
         <h1>عن المسابقة</h1>
         <div className="about-items">
-          <div className="about-items-item green-item">
+          <div
+            className="about-items-item green-item"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <div className="about-items-flex-heading">
               <BsTerminalFill className="about-icon" />
               <h3>شروط المسابقة</h3>
@@ -41,7 +50,11 @@ const About = () => {
             </ol>
           </div>
           <div className="about-items-flex">
-            <div className="about-items-item white-item">
+            <div
+              className="about-items-item white-item"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <div className="about-items-flex-heading">
                 <BsPeopleFill className="about-icon" />
                 <h3>الشريحة المستهدفة</h3>
@@ -55,7 +68,11 @@ const About = () => {
                 </li>
               </ol>
             </div>
-            <div className="about-items-item green-item">
+            <div
+              className="about-items-item green-item"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <div className="about-items-flex-heading">
                 <GiTimeBomb className="about-icon" />
                 <h3>مواعيد المسابقة </h3>

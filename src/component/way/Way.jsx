@@ -1,10 +1,14 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./way.css";
 
 const Way = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <section className="way" id="way">
+    <section className="way" id="way" data-aos="fade-up">
       <div className="way-content">
         <h1>طريقة التسجيل</h1>
         <p>

@@ -3,8 +3,7 @@ import "./App.css";
 import Navbar from "./component/navbar/Navbar";
 import Footer from "./component/footer/Footer";
 import ScrollTop from "./tools/scrollTop/ScrollTop";
-
-import {  Route, Routes} from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import WinnersPage from "./pages/winnersPage/WinnersPage";
 function App() {
@@ -13,7 +12,10 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/kalbonyanElmarsosWebsite" element={<HomePage />} />
-        <Route path="/winners" element={<WinnersPage />} />
+        <Route
+          path="/kalbonyanElmarsosWebsite/winners"
+          element={<WinnersPage />}
+        />
       </Routes>
       <Footer />
       <ScrollTop />

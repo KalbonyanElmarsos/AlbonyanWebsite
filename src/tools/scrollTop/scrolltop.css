@@ -1,8 +1,10 @@
 .scroll {
+  background-color: none;
   background-color: var(--color-one);
   transition: all 0.3s ease-in-out;
   bottom: 20px;
   right: 20px;
+  animation: shake-vertical 7s ease-out infinite both;
 }
 .scroll:hover {
   background-color: var(--color-two);
@@ -10,6 +12,29 @@
 .up-icon {
   color: var(--color-white);
   font-size: 1.7rem;
+}
+@keyframes shake-vertical {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateY(-4px);
+  }
+  20%,
+  40%,
+  60% {
+    transform: translateY(4px);
+  }
+  80% {
+    transform: translateY(6.4px);
+  }
+  90% {
+    transform: translateY(-6.4px);
+  }
 }
 
 @media (max-width: 500px) {

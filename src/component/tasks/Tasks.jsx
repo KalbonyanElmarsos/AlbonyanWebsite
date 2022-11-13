@@ -1,15 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./tasks.css";
 import tasks from "../../assest/tasks.png";
 
 const Tasks = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section className="tasks" id="tasks">
       <h1>تسليمات المسابقة</h1>
       <div className="tasks-contents">
-        <img src={tasks} alt="hands of someone writing on computer" />
+        <img
+          src={tasks}
+          alt="hands of someone writing on computer"
+          data-aos="fade-left"
+        />
         <div className="tasks-contents-content">
-          <ol>
+          <ol data-aos="fade-up">
             <li>عشر شهادات من Linkedin Learning .</li>
             <li>أربع شهادات من Udemy .</li>
             <li>شهادتان من Cloud Guru .</li>
