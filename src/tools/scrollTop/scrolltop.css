@@ -6,7 +6,7 @@
   animation: shake-vertical 7s ease-out infinite both;
 }
 .scroll:hover {
-  background-color: var(--color-two);
+  background-color: var(--color-two) !important;
 }
 .up-icon {
   color: var(--color-white);

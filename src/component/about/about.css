@@ -1,8 +1,8 @@
 .about {
   background: var(--color-bg);
   /* height: 100vh; */
-  padding: 3rem;
-  margin: 2rem 0;
+  /* padding: 3rem; */
+  /* margin: 2rem 0; */
 }
 .about-container h1 {
   font-size: 2rem;
@@ -71,8 +71,8 @@
     flex-direction: row-reverse;
   } */
 }
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .about {
     padding: 2rem;
   }
-}
+} */

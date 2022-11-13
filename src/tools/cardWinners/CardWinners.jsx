@@ -10,7 +10,7 @@ const CardWinners = ({ image, name, linkedInLink }) => {
   }, []);
   return (
     <div className="CardWinners" data-aos="fade-up">
-      <img src={image} alt={name} />
+      <img src={image} alt={name} loading="lazy" />
       <p>{name}</p>
       <a href={linkedInLink} target="_blank" rel="noreferrer">
         <BsLinkedin />

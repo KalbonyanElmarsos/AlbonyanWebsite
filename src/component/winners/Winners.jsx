@@ -14,12 +14,12 @@ const Winners = () => {
     <section className="winners" id="winner">
       {/* <h1>الفائزون بالمسابقة</h1> */}
       <img src={winners} alt=" winners" data-aos="fade-left" />
+
       <Link
         className="btn-gradient winners-link"
         to="/kalbonyanElmarsosWebsite/winners"
-        data-aos="fade-up"
       >
-        <p>الذهاب إلي الفائزين والخريجين من المسابقة</p>
+        <p data-aos="fade-up">الذهاب إلي الفائزين والخريجين من المسابقة</p>
         <TbArrowBigLeftLines className="winners-arrow-icon" />
       </Link>
     </section>

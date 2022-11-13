@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./tasks.css";
-import tasks from "../../assest/tasks.png";
+import taskBack from "../../assest/taskBack.png";
+import logoOnTask from "../../assest/logoOnTask.png";
 
 const Tasks = () => {
   useEffect(() => {
@@ -12,11 +13,22 @@ const Tasks = () => {
     <section className="tasks" id="tasks">
       <h1>تسليمات المسابقة</h1>
       <div className="tasks-contents">
-        <img
-          src={tasks}
-          alt="hands of someone writing on computer"
-          data-aos="fade-left"
-        />
+        <div className="tasks-contents-images">
+          <img
+            src={taskBack}
+            alt="hands of someone writing on computer"
+            data-aos="fade-left"
+            className="tasks-contents-images-task"
+          />
+          <img
+            src={logoOnTask}
+            alt="logo"
+            className="tasks-contents-images-logo"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          />
+        </div>
         <div className="tasks-contents-content">
           <ol data-aos="fade-up">
             <li>عشر شهادات من Linkedin Learning .</li>

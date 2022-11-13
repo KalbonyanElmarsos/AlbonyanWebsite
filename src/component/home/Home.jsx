@@ -2,7 +2,9 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Home.css";
-import banner from "../../assest/banner.png";
+import manBackground from "../../assest/manBackground.png";
+import man from "../../assest/man.png";
+import logoOnMan from "../../assest/logoOnMan.png";
 
 const Home = () => {
   useEffect(() => {
@@ -33,8 +35,27 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <div data-aos="fade-right" className="home-img">
-        <img src={banner} alt="banner of home page" />
+
+      <div className="home-img" data-aos="fade-up">
+        <img
+          className="home-img-background"
+          src={manBackground}
+          alt="background of man"
+          data-aos="fade-down"
+          data-aos-duration="3000"
+        />
+        <img
+          className="home-img-man"
+          src={man}
+          alt="man writing on computer "
+          data-aos="fade-right"
+        />
+        <img
+          className="home-img-logo"
+          src={logoOnMan}
+          alt="logo"
+          data-aos="fade-left"
+        />
       </div>
     </div>
   );

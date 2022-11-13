@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import { Link } from "react-router-dom";
 import logo from "../../assest/logo.png";
 import "./navbar.css";
 
@@ -34,9 +35,9 @@ const Navbar = () => {
     <div className="navbar">
       <div className="navbar-links">
         <div className="navbar-links-logo">
-          <a href="#">
+          <Link to="/kalbonyanElmarsosWebsite">
             <img src={logo} alt="logo" />
-          </a>
+          </Link>
         </div>
         <div className="navbar-links-container">
           <Menu />
