@@ -1,6 +1,5 @@
 .scroll {
-  background-color: none;
-  background-color: var(--color-one);
+  background-color: var(--color-one) !important;
   transition: all 0.3s ease-in-out;
   bottom: 20px;
   right: 20px;
