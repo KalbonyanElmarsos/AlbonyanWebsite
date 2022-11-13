@@ -19,7 +19,7 @@ const Winners = () => {
         className="btn-gradient winners-link"
         to="/kalbonyanElmarsosWebsite/winners"
       >
-        <p data-aos="fade-up">الذهاب إلي الفائزين والخريجين من المسابقة</p>
+        <p>الذهاب إلي الفائزين والخريجين من المسابقة</p>
         <TbArrowBigLeftLines className="winners-arrow-icon" />
       </Link>
     </section>

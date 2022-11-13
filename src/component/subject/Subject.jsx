@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import TrCourse from "../../tools/trCourse/TrCourse";
 import TrTitle from "../../tools/trTitle/TrTitle";
 import "./subject.css";
@@ -10,12 +12,16 @@ const Subject = () => {
     setOpen((prevState) => !prevState);
   };
 
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <section className="subject" id="subject">
       <h1>منهج المسابقة</h1>
       {/* table */}
       <table className="subject-container">
-        <thead>
+        <thead data-aos="fade-left">
           <tr>
             <th>م </th>
             <th>الكورس</th>
@@ -24,7 +30,7 @@ const Subject = () => {
           </tr>
         </thead>
 
-        <tbody>
+        <tbody data-aos="fade-up">
           <TrTitle title="Learn Programming Foundations" />
           <TrCourse
             number="1"

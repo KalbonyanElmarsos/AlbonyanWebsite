@@ -8,7 +8,7 @@ const TrTitle = ({ title }) => {
     AOS.init();
   }, []);
   return (
-    <tr data-aos="fade-right">
+    <tr>
       <td colSpan="4" className="subject-container-colspan">
         {title}
       </td>

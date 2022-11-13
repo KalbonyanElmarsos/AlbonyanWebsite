@@ -8,7 +8,7 @@ const TrCourse = ({ number, link, name, platFrom, hours }) => {
     AOS.init();
   }, []);
   return (
-    <tr className="trCourse" data-aos="fade-left">
+    <tr className="trCourse">
       <td>{number}</td>
       <td>
         <a href={link} target="_blank" rel="noreferrer">
