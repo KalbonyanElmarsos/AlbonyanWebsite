@@ -44,63 +44,63 @@ const Subject = () => {
             link="https://www.linkedin.com/learning/programming-foundations-beyond-the-fundamentals?contextUrn=urn%3Ali%3AlyndaLearningPath%3A56db2b643dd5596be4e4989b"
             name="Beyond the Fundamentals"
             platFrom="Linkedin Learning"
-            hours="2h 6m"
+            hours="2h 4m"
           />
           <TrCourse
             number="3"
             link="https://www.linkedin.com/learning/programming-foundations-object-oriented-design-3"
             name="Object-Oriented Design"
             platFrom="Linkedin Learning"
-            hours="2h 6m"
+            hours="2h 40m"
           />
           <TrCourse
             number="4"
             link="https://www.linkedin.com/learning/programming-foundations-data-structures-2?contextUrn=urn%3Ali%3AlyndaLearningPath%3A56db2b643dd5596be4e4989b"
             name=" Data Structures"
             platFrom="Linkedin Learning"
-            hours="2h 6m"
+            hours="2h 20m"
           />
           <TrCourse
             number="5"
             link="https://www.linkedin.com/learning/programming-foundations-algorithms?contextUrn=urn%3Ali%3AlyndaLearningPath%3A56db2b643dd5596be4e4989b"
             name="Algorithms"
             platFrom="Linkedin Learning"
-            hours="2h 6m"
+            hours="1h 45m"
           />
           <TrCourse
             number="6"
             link="https://www.linkedin.com/learning/programming-foundations-design-patterns-2?contextUrn=urn%3Ali%3AlyndaLearningPath%3A56db2b643dd5596be4e4989b"
             name="Design Patterns"
             platFrom="Linkedin Learning"
-            hours="2h 6m"
+            hours="1h 44m"
           />
           <TrCourse
             number="7"
             link="https://www.linkedin.com/learning/programming-foundations-databases-2?contextUrn=urn%3Ali%3AlyndaLearningPath%3A56db2b643dd5596be4e4989b"
             name="Databases"
             platFrom="Linkedin Learning"
-            hours="2h 6m"
+            hours="1h 25m"
           />
           <TrCourse
             number="8"
             link="https://www.linkedin.com/learning/programming-foundations-apis-and-web-services?contextUrn=urn%3Ali%3AlyndaLearningPath%3A56db2b643dd5596be4e4989b"
             name="APIs and Web Services"
             platFrom="Linkedin Learning"
-            hours="2h 6m"
+            hours="1h 14m"
           />
           <TrCourse
             number="9"
             link="https://www.linkedin.com/learning/programming-foundations-software-testing-qa?contextUrn=urn%3Ali%3AlyndaLearningPath%3A56db2b643dd5596be4e4989b"
             name="Software Testing"
             platFrom="Linkedin Learning"
-            hours="2h 6m"
+            hours="53m"
           />
           <TrCourse
             number="10"
             link="https://www.linkedin.com/learning/learning-github"
             name="Learning GitHub"
             platFrom="Linkedin Learning"
-            hours="2h 6m"
+            hours="2h 11m"
           />
 
           {/* html,css */}
@@ -110,7 +110,7 @@ const Subject = () => {
             link="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3"
             name="Build Responsive Real-World Websites with HTML and CSS"
             platFrom="Udemy"
-            hours="2h 6m"
+            hours="37h 30m"
           />
 
           {/* js */}

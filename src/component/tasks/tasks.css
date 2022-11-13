@@ -35,6 +35,7 @@
 .tasks-contents-images-logo {
   position: absolute;
   width: 30%;
+  animation: shake-vertical 5s ease-in-out infinite both;
 }
 .tasks-contents-content ol li {
   margin-bottom: 0.5rem;

@@ -167,7 +167,29 @@ h1,
     transform-origin: 0% 0%;
   }
 }
-
+@keyframes shake-vertical {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateY(-4px);
+  }
+  20%,
+  40%,
+  60% {
+    transform: translateY(4px);
+  }
+  80% {
+    transform: translateY(6.4px);
+  }
+  90% {
+    transform: translateY(-6.4px);
+  }
+}
 /* -----------------Media Queries----------- */
 @media screen and (max-width: 1050px) {
   /* .section-margin {
