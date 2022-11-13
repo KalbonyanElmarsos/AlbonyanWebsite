@@ -26,6 +26,7 @@ import mahmoudMohamed from "../../assest/winners/mahmoud05.jpg";
 import YousefShaban from "../../assest/winners/yousefShaban.jpg";
 import AmmarSaied from "../../assest/winners/ammarSaied.jpg";
 import Abdallah from "../../assest/winners/abdallah.jpg";
+import Torky from "../../assest/winners/torky.jpg";
 import Flower from "../../assest/winners/flower.jpg";
 import niqapgirl from "../../assest/winners/nigabGril.jpg";
 
@@ -171,8 +172,8 @@ const WinnersPage = () => {
           linkedInLink="https://www.linkedin.com/in/mahmoud-farag-4346a4162"
         />
         <CardWinners
-          image={mahmoudFarag}
-          name="تركي بدر"
+          image={Torky}
+          name="تركي العماري"
           linkedInLink="https://www.linkedin.com/in/turki-badr-526989234/"
         />
         <CardWinners

@@ -9,7 +9,7 @@ const Card = ({ title, award, className }) => {
     AOS.init();
   }, []);
   return (
-    <div className={`card  ${className}`} data-aos="fade-right">
+    <div className={`card  ${className}`} data-aos="fade-up">
       <FaAward className="card-icon" />
       <h4>{title}</h4>
       <p>{award} </p>

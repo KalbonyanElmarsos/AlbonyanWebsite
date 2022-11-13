@@ -61,6 +61,7 @@
   background: var(--color-white);
 }
 .button-row button {
+  font-family: var(--font-family);
   font-size: 1.5rem;
   cursor: pointer;
   background: none;
@@ -82,5 +83,8 @@
   .subject-container td:nth-child(3),
   .subject-container th:nth-child(3) {
     display: none;
+  }
+  .button-row button {
+    font-size: 1rem;
   }
 }

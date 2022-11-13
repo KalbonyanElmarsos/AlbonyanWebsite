@@ -1,11 +1,10 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { TbArrowBigLeftLines } from "react-icons/tb";
 import winners from "../../assest/winners/winners.png";
-
 import "./winners.css";
-import { Link } from "react-router-dom";
 
 const Winners = () => {
   useEffect(() => {

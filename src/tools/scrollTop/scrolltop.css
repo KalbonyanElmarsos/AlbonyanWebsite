@@ -1,8 +1,8 @@
 .scroll {
   background-color: var(--color-one) !important;
   transition: all 0.3s ease-in-out;
-  bottom: 20px;
-  right: 20px;
+  bottom: 20px !important;
+  right: 20px !important;
   animation: shake-vertical 7s ease-out infinite both;
 }
 .scroll:hover {
@@ -38,9 +38,9 @@
 
 @media (max-width: 500px) {
   .scroll {
-    right: 0px;
-    width: 30px;
-    height: 30px;
+    right: 0px !important;
+    width: 30px !important;
+    height: 30px !important;
   }
   .up-icon {
     font-size: 1.5rem;
