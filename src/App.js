@@ -1,24 +1,41 @@
-import "./App.css";
-
+import React, { useState, useEffect } from "react";
 import Navbar from "./component/navbar/Navbar";
 import Footer from "./component/footer/Footer";
 import ScrollTop from "./tools/scrollTop/ScrollTop";
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import WinnersPage from "./pages/winnersPage/WinnersPage";
+import "./App.css";
+import Loader from "./component/loader/Loader";
+
 function App() {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+
+    setTimeout(() => {
+      setLoading(false);
+    }, 2500);
+  }, []);
   return (
     <div className="App">
-      <Navbar />
-      <Routes>
-        <Route path="/kalbonyanElmarsosWebsite" element={<HomePage />} />
-        <Route
-          path="/kalbonyanElmarsosWebsite/winners"
-          element={<WinnersPage />}
-        />
-      </Routes>
-      <Footer />
-      <ScrollTop />
+      {loading ? (
+        <Loader />
+      ) : (
+        <>
+          <Navbar />
+          <Routes>
+            <Route path="/kalbonyanElmarsosWebsite" element={<HomePage />} />
+            <Route
+              path="/kalbonyanElmarsosWebsite/winners"
+              element={<WinnersPage />}
+            />
+          </Routes>
+          <Footer />
+          <ScrollTop />
+        </>
+      )}
     </div>
   );
 }
