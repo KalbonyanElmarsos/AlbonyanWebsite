@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import ReactImageZoom from "react-image-zoom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { TbArrowBigLeftLines } from "react-icons/tb";
@@ -13,8 +14,16 @@ const Winners = () => {
   return (
     <section className="winners" id="winner">
       {/* <h1>الفائزون بالمسابقة</h1> */}
-      <img src={winners} alt=" winners" data-aos="fade-left" />
-
+      {window.innerWidth < 600 ? (
+        <ReactImageZoom
+          width="400"
+          zoomWidth="500"
+          zoomPosition="top"
+          img={winners}
+        />
+      ) : (
+        <img src={winners} alt=" winners" data-aos="fade-left" />
+      )}
       <Link
         className="btn-gradient winners-link"
         to="/kalbonyanElmarsosWebsite/winners"

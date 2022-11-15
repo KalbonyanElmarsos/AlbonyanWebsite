@@ -1,34 +1,33 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import logo from "../../assest/logo.png";
 import "./navbar.css";
 
 // links of navbar
 const Menu = () => {
-  const clickHandler = (e) => {
-    e.preventDefault();
-  };
-
   return (
     <>
       <p>
-        <Link to="/kalbonyanElmarsosWebsite/#about">عن المسابقة</Link>
+        <HashLink to="/kalbonyanElmarsosWebsite/#about">عن المسابقة</HashLink>
       </p>
       <p>
-        <Link to="/kalbonyanElmarsosWebsite/#subject">المنهج</Link>
+        <HashLink to="/kalbonyanElmarsosWebsite/#subject">المنهج</HashLink>
       </p>
       <p>
-        <Link to="/kalbonyanElmarsosWebsite/#awards">الجوائز</Link>
+        <HashLink to="/kalbonyanElmarsosWebsite/#awards">الجوائز</HashLink>
       </p>
       <p>
-        <Link to="/kalbonyanElmarsosWebsite/#tasks">تسليمات المسابقة</Link>
+        <HashLink to="/kalbonyanElmarsosWebsite/#tasks">
+          تسليمات المسابقة
+        </HashLink>
       </p>
       <p>
-        <Link to="/kalbonyanElmarsosWebsite/#way">طريقة التسجيل</Link>
+        <HashLink to="/kalbonyanElmarsosWebsite/#way">طريقة التسجيل</HashLink>
       </p>
       <p>
-        <Link to="/kalbonyanElmarsosWebsite/#winner">الفائزون</Link>
+        <HashLink to="/kalbonyanElmarsosWebsite/#winner">الفائزون</HashLink>
       </p>
     </>
   );

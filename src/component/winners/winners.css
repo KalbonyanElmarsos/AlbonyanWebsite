@@ -3,6 +3,8 @@
   flex-direction: column;
   align-items: center;
   margin-top: 4rem;
+  background: var(--color-bg);
+  margin-bottom: 0;
 }
 .winners img {
   width: 90vw;
@@ -25,9 +27,6 @@
   .winners-link {
     font-size: 1rem;
     margin: 2rem;
-  }
-  .winners img {
-    /* height: 40vh; */
   }
 }
 
