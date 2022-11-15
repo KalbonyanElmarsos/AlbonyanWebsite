@@ -1,0 +1,25 @@
+.cardTeam {
+  background: var(--gradient-box);
+  border-radius: var(--border-radius);
+  /* border: 3px solid var(--color-two); */
+  /* position: relative; */
+  height: 250px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cardTeam img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+}
+.cardTeam p {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  /* color: var(--color-two); */
+  color: var(--color-white);
+}

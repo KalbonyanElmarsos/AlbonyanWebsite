@@ -8,6 +8,7 @@ const Card = ({ title, award, className }) => {
   useEffect(() => {
     AOS.init();
   }, []);
+
   return (
     <div data-aos="fade-up">
       <div className={`card  ${className}`}>

@@ -5,28 +5,34 @@ import logo from "../../assest/logo.png";
 import "./navbar.css";
 
 // links of navbar
-const Menu = () => (
-  <>
-    <p>
-      <a href="#about">عن المسابقة</a>
-    </p>
-    <p>
-      <a href="#subject">المنهج</a>
-    </p>
-    <p>
-      <a href="#awards">الجوائز</a>
-    </p>
-    <p>
-      <a href="#tasks">تسليمات المسابقة</a>
-    </p>
-    <p>
-      <a href="#way">طريقة التسجيل</a>
-    </p>
-    <p>
-      <a href="#winner"> الفائزون</a>
-    </p>
-  </>
-);
+const Menu = () => {
+  const clickHandler = (e) => {
+    e.preventDefault();
+  };
+
+  return (
+    <>
+      <p>
+        <Link to="/kalbonyanElmarsosWebsite/#about">عن المسابقة</Link>
+      </p>
+      <p>
+        <Link to="/kalbonyanElmarsosWebsite/#subject">المنهج</Link>
+      </p>
+      <p>
+        <Link to="/kalbonyanElmarsosWebsite/#awards">الجوائز</Link>
+      </p>
+      <p>
+        <Link to="/kalbonyanElmarsosWebsite/#tasks">تسليمات المسابقة</Link>
+      </p>
+      <p>
+        <Link to="/kalbonyanElmarsosWebsite/#way">طريقة التسجيل</Link>
+      </p>
+      <p>
+        <Link to="/kalbonyanElmarsosWebsite/#winner">الفائزون</Link>
+      </p>
+    </>
+  );
+};
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);

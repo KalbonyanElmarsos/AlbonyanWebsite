@@ -7,6 +7,7 @@ import Winners from "../component/winners/Winners";
 import About from "../component/about/About";
 import Subject from "../component/subject/Subject";
 import Testimonial from "../component/testimonial/Testimonial";
+import Team from "../component/team/Team";
 const HomePage = () => {
   return (
     <>
@@ -15,8 +16,9 @@ const HomePage = () => {
       <Subject />
       <Awards />
       <Tasks />
-      <Way />
       <Winners />
+      <Way />
+      <Team />
       <Testimonial />
     </>
   );

@@ -9,7 +9,7 @@ const CardWinners = ({ image, name, linkedInLink }) => {
     AOS.init();
   }, []);
   return (
-    <div className="CardWinners" data-aos="fade-up">
+    <div className="CardWinners">
       <img src={image} alt={name} loading="lazy" />
       <p>{name}</p>
       <a href={linkedInLink} target="_blank" rel="noreferrer">
