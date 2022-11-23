@@ -45,7 +45,7 @@
   color: var(--color-two);
 }
 .tasks-contents-content ol li {
-  margin-bottom: 0.7rem;
+  margin-bottom: 10px;
   font-size: 1.2rem;
   font-weight: 600;
   padding-right: 2px;
@@ -104,23 +104,23 @@
 } */
 @media screen and (max-width: 950px) {
   .tasks-contents-images-task {
-    width: 40%;
+    width: 50%;
   }
   .tasks-contents {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     margin-top: 0;
   }
 
   .tasks-contents-content ol li {
-    margin-bottom: 0.2rem;
+    /* margin-bottom: 0.2rem; */
     font-size: 1.1rem;
     font-weight: 600;
   }
 
-  .tasks h1 {
+  /* .tasks h1 {
     margin-bottom: 1.3rem;
-  }
+  } */
 }
