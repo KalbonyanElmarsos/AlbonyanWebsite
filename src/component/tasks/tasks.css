@@ -37,11 +37,23 @@
   width: 30%;
   animation: shake-vertical 5s ease-in-out infinite both;
 }
+.tasks-contents-content h4 {
+  color: var(--color-one);
+  text-shadow: 1px 1px var(--color-two);
+}
+.tasks-contents-content p {
+  color: var(--color-two);
+}
 .tasks-contents-content ol li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.7rem;
   font-size: 1.2rem;
   font-weight: 600;
   padding-right: 2px;
+}
+.tasks-contents-content ol li ul li {
+  margin-bottom: 0rem;
+  padding-right: 0px;
+  margin-right: 20px;
 }
 
 .tasks-contents-content::before,

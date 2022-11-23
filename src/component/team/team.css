@@ -2,11 +2,14 @@
   /* overflow: hidden; */
   /* position: relative; */
   /* background: var(--color-one-dark); */
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .swiper {
   width: 100%;
   padding-top: 80px;
+
   /* padding-bottom: 100px; */
 }
 
@@ -20,3 +23,13 @@
   display: block;
   width: 100%;
 } */
+.swiper-button-next,
+.swiper-button-prev {
+  top: 90%;
+}
+.swiper-button-next {
+  left: 50px !important;
+}
+.swiper-button-prev {
+  right: 50px !important;
+}

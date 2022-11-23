@@ -14,7 +14,7 @@ const Winners = () => {
   return (
     <section className="winners" id="winner">
       {/* <h1>الفائزون بالمسابقة</h1> */}
-      {window.innerWidth < 600 ? (
+      {/* {window.innerWidth < 600 ? (
         <ReactImageZoom
           width="400"
           zoomWidth="500"
@@ -23,7 +23,8 @@ const Winners = () => {
         />
       ) : (
         <img src={winners} alt=" winners" data-aos="fade-left" />
-      )}
+      )} */}
+      <img src={winners} alt=" winners" data-aos="fade-left" />
       <Link
         className="btn-gradient winners-link"
         to="/kalbonyanElmarsosWebsite/winners"

@@ -20,7 +20,7 @@ const Menu = () => {
       </p>
       <p>
         <HashLink to="/kalbonyanElmarsosWebsite/#tasks">
-          تسليمات المسابقة
+          اختبارات المسابقة
         </HashLink>
       </p>
       <p>

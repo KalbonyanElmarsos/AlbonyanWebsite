@@ -31,7 +31,7 @@ const Team = () => {
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={window.innerWidth < 768 ? 3 : 4}
+        slidesPerView={window.innerWidth < 500 ? 2 : 4}
         loop={true}
         coverflowEffect={{
           rotate: 50,
