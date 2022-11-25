@@ -88,3 +88,11 @@
     font-size: 1rem;
   }
 }
+table,
+th,
+td {
+  border: 2px solid var(--color-bg-2);
+  /* border-style: outset; */
+
+  /* border-collapse: collapse; */
+}

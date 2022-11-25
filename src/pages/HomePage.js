@@ -6,7 +6,7 @@ import Way from "../component/way/Way";
 import Winners from "../component/winners/Winners";
 import About from "../component/about/About";
 import Subject from "../component/subject/Subject";
-import Testimonial from "../component/testimonial/Testimonial";
+// import Testimonial from "../component/testimonial/Testimonial";
 import Team from "../component/team/Team";
 const HomePage = () => {
   return (
@@ -19,7 +19,7 @@ const HomePage = () => {
       <Winners />
       <Way />
       <Team />
-      <Testimonial />
+      {/* <Testimonial /> */}
     </>
   );
 };

@@ -12,9 +12,9 @@ const Way = () => {
       <div className="way-content">
         <h1>طريقة التسجيل</h1>
         <p>
-          يجب سماع الكورس الأول كاملاَ وكتابة الأكواد وتلخيص ما استفدته من
-          الكورس في ملف pdf وبعدها تسجل كافة بياناتك وتحل الاختبار في هذا
-          الاستبيان
+          يجب سماع أول أربعة فيديوهات من هذا الكورس وكتابة الأكواد وتلخيص ما
+          استفدته وبعدها تسجل كافة بياناتك وتحل الاختبار في هذا الاستبيان ولا
+          نسمح بحل الاختبار بدون سماع الفيديوهات ولا أي وسيلة للغش
         </p>
 
         <div className="way-content-buttons">
@@ -22,11 +22,16 @@ const Way = () => {
             target="_blank"
             rel="noreferrer"
             className="btn-green"
-            href="https://www.linkedin.com/learning/programming-foundations-fundamentals-3?contextUrn=urn%3Ali%3AlyndaLearningPath%3A56db2b643dd5596be4e4989b"
+            href="https://www.youtube.com/watch?v=OvKCESUCWII&list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V"
           >
-            الكورس الأول
+            الكورس
           </a>
-          <a className="btn-green" href="" rel="noreferrer" target="_blank">
+          <a
+            className="btn-green"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSel1DuHIh_gJiSBYQNt4l-ABeh5jVxlakwanXouR9Kv6_UgVA/viewform"
+            rel="noreferrer"
+            target="_blank"
+          >
             الاستبيان
           </a>
         </div>

@@ -46,163 +46,98 @@ const Subject = () => {
             platFrom="Linkedin Learning"
             hours="2h 4m"
           />
-          <TrCourse
-            number="3"
-            link="https://www.linkedin.com/learning/programming-foundations-object-oriented-design-3"
-            name="Object-Oriented Design"
-            platFrom="Linkedin Learning"
-            hours="2h 40m"
-          />
-          <TrCourse
-            number="4"
-            link="https://www.linkedin.com/learning/programming-foundations-data-structures-2?contextUrn=urn%3Ali%3AlyndaLearningPath%3A56db2b643dd5596be4e4989b"
-            name=" Data Structures"
-            platFrom="Linkedin Learning"
-            hours="2h 20m"
-          />
-          <TrCourse
-            number="5"
-            link="https://www.linkedin.com/learning/programming-foundations-algorithms?contextUrn=urn%3Ali%3AlyndaLearningPath%3A56db2b643dd5596be4e4989b"
-            name="Algorithms"
-            platFrom="Linkedin Learning"
-            hours="1h 45m"
-          />
-          <TrCourse
-            number="6"
-            link="https://www.linkedin.com/learning/programming-foundations-design-patterns-2?contextUrn=urn%3Ali%3AlyndaLearningPath%3A56db2b643dd5596be4e4989b"
-            name="Design Patterns"
-            platFrom="Linkedin Learning"
-            hours="1h 44m"
-          />
-          <TrCourse
-            number="7"
-            link="https://www.linkedin.com/learning/programming-foundations-databases-2?contextUrn=urn%3Ali%3AlyndaLearningPath%3A56db2b643dd5596be4e4989b"
-            name="Databases"
-            platFrom="Linkedin Learning"
-            hours="1h 25m"
-          />
-          <TrCourse
-            number="8"
-            link="https://www.linkedin.com/learning/programming-foundations-apis-and-web-services?contextUrn=urn%3Ali%3AlyndaLearningPath%3A56db2b643dd5596be4e4989b"
-            name="APIs and Web Services"
-            platFrom="Linkedin Learning"
-            hours="1h 14m"
-          />
-          <TrCourse
-            number="9"
-            link="https://www.linkedin.com/learning/programming-foundations-software-testing-qa?contextUrn=urn%3Ali%3AlyndaLearningPath%3A56db2b643dd5596be4e4989b"
-            name="Software Testing"
-            platFrom="Linkedin Learning"
-            hours="53m"
-          />
-          <TrCourse
-            number="10"
-            link="https://www.linkedin.com/learning/learning-github"
-            name="Learning GitHub"
-            platFrom="Linkedin Learning"
-            hours="2h 11m"
-          />
 
           {/* html,css */}
-          <TrTitle title="Learn HTML and CSS" />
+          <TrTitle title="Learn HTML, CSS and GitHub" />
           <TrCourse
-            number="11"
+            number="3"
             link="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3"
             name="Build Responsive Real-World Websites with HTML and CSS"
             platFrom="Udemy"
             hours="37h 30m"
           />
+          <TrCourse
+            number="4"
+            link="https://www.udemy.com/course/git-expert-4-hours/"
+            name="Git: Become an Expert in Git & GitHub"
+            platFrom="Udemy"
+            hours="4h"
+          />
 
           {/* js */}
-          {open ? (
-            <>
-              <TrTitle title="Learn JavaScript" />
-              <TrCourse
-                number="12"
-                link="https://www.udemy.com/course/the-complete-javascript-course/"
-                name="The Complete JavaScript Course 2022: From Zero to Expert!"
-                platFrom="Udemy"
-                hours="69h"
-              />
-              <TrCourse
-                number="12"
-                link="https://www.udemy.com/course/modern-javascript/"
-                name="The Modern JavaScript Bootcamp"
-                platFrom="Udemy"
-                hours="29h 30m"
-              />
+          {/* {open ? (
+            <> */}
+          <TrTitle title="Learn JavaScript" />
+          <TrCourse
+            number="5"
+            link="https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/"
+            name="JavaScript - The Complete Guide 2023 (Beginner + Advanced)"
+            platFrom="Udemy"
+            hours="52h 32m"
+          />
+          <TrCourse
+            number="6"
+            link="https://www.udemy.com/course/web-projects-with-vanilla-javascript/"
+            name="20 Web Projects with vanilla JavaScript"
+            platFrom="Udemy"
+            hours="16h 7m"
+          />
 
-              {/* React */}
-              <TrTitle title="Learn React Js" />
-              <TrCourse
-                number="13"
-                link="https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
-                name="React - The Complete Guide (incl Hooks, React Router, Redux)"
-                platFrom="Udemy"
-                hours="48h"
-              />
-              <TrCourse
-                number="13"
-                link="https://www.udemy.com/course/complete-react-developer-zero-to-mastery/"
-                name=" Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)"
-                platFrom="Udemy"
-                hours="39h"
-              />
+          {/* React */}
+          <TrTitle title="Learn MERN Stack" />
+          <TrCourse
+            number="7"
+            link="https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
+            name="React - The Complete Guide (incl Hooks, React Router, Redux)"
+            platFrom="Udemy"
+            hours="49h 25m"
+          />
 
-              {/* NodeJs */}
-              <TrTitle title="Learn Node Js" />
-              <TrCourse
-                number="14"
-                link="https://www.udemy.com/course/complete-nodejs-developer-zero-to-mastery/"
-                name="The Complete Node.js Developer Course (3rd Edition)"
-                platFrom="Udemy"
-                hours="35h"
-              />
-              <TrCourse
-                number="14"
-                link="https://www.udemy.com/course/the-complete-nodejs-developer-course-2/"
-                name="Complete NodeJS Developer in 2022 (GraphQL, MongoDB, + more)"
-                platFrom="Udemy"
-                hours="46h"
-              />
+          <TrCourse
+            number="8"
+            link="https://www.udemy.com/course/nodejs-the-complete-guide/"
+            name="NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)"
+            platFrom="Udemy"
+            hours="40h 31m"
+          />
 
-              {/* AWS  */}
-              <TrTitle title="Learn How to Deploy your web applications with Cloud Provider (AWS) Learn React Js" />
-              <TrCourse
-                number="15"
-                link="https://acloud.guru/overview/aws--certified-cloud-practitioner"
-                name="AWS Certified Cloud Practitioner (CLF-C01)"
-                platFrom="Cloud Guru"
-                hours="16h"
-              />
-              <TrCourse
-                number="16"
-                link="https://acloudguru.com/course/aws-certified-solutions-architect-associate-saa-c02"
-                name="AWS Certified Solutions Architect Associate (SAA-C02)"
-                platFrom="Cloud Guru"
-                hours="42h"
-              />
-              <TrTitle title="Learn How to Make serverless web applications" />
-              <TrCourse
-                number="17"
-                link="https://sst.dev/guide.html"
-                name="Serverless Stack (SST)"
-                platFrom="Serverless Stack"
-                hours="10h"
-              />
-            </>
+          <TrCourse
+            number="9"
+            link="https://www.udemy.com/course/mern-stack-course-mongodb-express-react-and-nodejs/"
+            name="MERN Stack Course 2022 - MongoDB, Express, React and NodeJS"
+            platFrom="Udemy"
+            hours="20h 32m"
+          />
+
+          {/* AWS  */}
+          <TrTitle title="Learn about Cloud Provider and Serverless" />
+          <TrCourse
+            number="10"
+            link="https://acloud.guru/overview/aws--certified-cloud-practitioner"
+            name="AWS Certified Cloud Practitioner (CLF-C01)"
+            platFrom="Cloud Guru"
+            hours="16h 12m"
+          />
+          <TrCourse
+            number="11"
+            link="https://www.udemy.com/course/serverless-functions-with-netlify/?referralCode=D20939E2CD569529F2AB"
+            name="Serverless Functions with Netlify"
+            platFrom="Cloud Guru"
+            hours="7h"
+          />
+          {/* </>
           ) : (
             ""
-          )}
+        )} */}
 
           {/* button to switch  */}
-          <tr className="button-row">
+          {/* <tr className="button-row">
             <td colSpan="4" className="subject-container-colspan">
               <button onClick={switchMode}>
                 {open ? "إخفــاء باقــي المنهــج" : "عــرض باقــي المنهــج"}
               </button>
             </td>
-          </tr>
+          </tr> */}
         </tbody>
       </table>
     </section>
