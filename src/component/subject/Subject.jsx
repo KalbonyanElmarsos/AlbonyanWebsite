@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import TrCourse from "../../tools/trCourse/TrCourse";
@@ -6,11 +6,11 @@ import TrTitle from "../../tools/trTitle/TrTitle";
 import "./subject.css";
 
 const Subject = () => {
-  const [open, setOpen] = useState(false);
+  // const [open, setOpen] = useState(false);
 
-  const switchMode = () => {
-    setOpen((prevState) => !prevState);
-  };
+  // const switchMode = () => {
+  //   setOpen((prevState) => !prevState);
+  // };
 
   useEffect(() => {
     AOS.init();

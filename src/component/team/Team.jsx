@@ -5,11 +5,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import SwiperCore, {
-  EffectCoverflow,
-  Pagination,
-  Navigation,
-} from "swiper/core";
+import { EffectCoverflow, Pagination, Navigation } from "swiper/core";
 
 import mansourKoura from "../../assest/winners/mansourKoura.jpg";
 import YousefMohamed from "../../assest/winners/YousefMohamed.jpg";

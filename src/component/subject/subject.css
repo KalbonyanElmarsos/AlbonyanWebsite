@@ -48,6 +48,14 @@
   -moz-box-shadow: 0 6px 6px -6px #0e1119;
   box-shadow: 0 6px 6px -6px #0e1119;
 }
+table,
+th,
+td {
+  border: 2px solid var(--color-bg-2);
+  /* border-style: outset; */
+
+  /* border-collapse: collapse; */
+}
 
 .button-row {
   /* color: var(--color-white); */
@@ -88,11 +96,9 @@
     font-size: 1rem;
   }
 }
-table,
-th,
-td {
-  border: 2px solid var(--color-bg-2);
-  /* border-style: outset; */
-
-  /* border-collapse: collapse; */
+@media (max-width: 500px) {
+  .subject-container td:nth-child(4),
+  .subject-container th:nth-child(4) {
+    display: none;
+  }
 }
