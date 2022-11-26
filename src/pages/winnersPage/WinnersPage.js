@@ -27,6 +27,7 @@ import YousefShaban from "../../assest/winners/yousefShaban.jpg";
 import AmmarSaied from "../../assest/winners/ammarSaied.jpg";
 import Abdallah from "../../assest/winners/abdallah.jpg";
 import Torky from "../../assest/winners/torky.jpg";
+import amrHidden from "../../assest/winners/amrHidden.jpg";
 import Flower from "../../assest/winners/flower.jpg";
 import niqapgirl from "../../assest/winners/nigabGril.jpg";
 
@@ -132,7 +133,7 @@ const WinnersPage = () => {
           linkedInLink="https://www.linkedin.com/in/osbdev/"
         />
         <CardWinners
-          image={omerSherif}
+          image={amrHidden}
           name="عمرو عزت"
           linkedInLink="https://www.linkedin.com/in/amrya200t/"
         />

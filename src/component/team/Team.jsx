@@ -13,6 +13,7 @@ import hassan from "../../assest/team/hassan.jpg";
 import ahmedBahaa from "../../assest/team/ahmedBahaa.jpg";
 import sahlSaad from "../../assest/team/sahlSaad.jpg";
 import ahmedFathi from "../../assest/team/ahmedFathi.jpg";
+import mohamedSaid from "../../assest/winners/mohamedSaid.jpg";
 import CardWinners from "../../tools/cardWinners/CardWinners";
 import "./team.css";
 //
@@ -62,6 +63,13 @@ const Team = () => {
             image={hassan}
             name="حسن محمود"
             linkedInLink="https://www.linkedin.com/in/hassan-mahmoud-0b8695173/"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <CardWinners
+            image={mohamedSaid}
+            name="محمد سعيد"
+            linkedInLink="https://www.linkedin.com/in/mohamed-said-5a599b234/"
           />
         </SwiperSlide>
         <SwiperSlide>
