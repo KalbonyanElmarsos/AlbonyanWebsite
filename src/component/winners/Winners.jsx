@@ -25,10 +25,7 @@ const Winners = () => {
         <img src={winners} alt=" winners" data-aos="fade-left" />
       )} */}
       <img src={winners} alt=" winners" data-aos="fade-left" />
-      <Link
-        className="btn-gradient winners-link"
-        to="/kalbonyanElmarsosWebsite/winners"
-      >
+      <Link className="btn-gradient winners-link" to="/winners">
         <p>الذهاب إلي الفائزين والخريجين من المسابقة</p>
         <TbArrowBigLeftLines className="winners-arrow-icon" />
       </Link>

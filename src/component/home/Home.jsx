@@ -11,7 +11,7 @@ const Home = () => {
     AOS.init();
   }, []);
   return (
-    <div className="home ">
+    <section className="home ">
       <div className="home-content">
         <h1 data-aos="fade-left" className="gradient-text">
           مسابقة كالبنيان المرصوص <br />
@@ -57,7 +57,7 @@ const Home = () => {
           data-aos="fade-left"
         />
       </div>
-    </div>
+    </section>
   );
 };
 

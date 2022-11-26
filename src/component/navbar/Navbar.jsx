@@ -10,24 +10,22 @@ const Menu = () => {
   return (
     <>
       <p>
-        <HashLink to="/kalbonyanElmarsosWebsite/#about">عن المسابقة</HashLink>
+        <HashLink to="/#about">عن المسابقة</HashLink>
       </p>
       <p>
-        <HashLink to="/kalbonyanElmarsosWebsite/#subject">المنهج</HashLink>
+        <HashLink to="/#subject">المنهج</HashLink>
       </p>
       <p>
-        <HashLink to="/kalbonyanElmarsosWebsite/#awards">الجوائز</HashLink>
+        <HashLink to="/#awards">الجوائز</HashLink>
       </p>
       <p>
-        <HashLink to="/kalbonyanElmarsosWebsite/#tasks">
-          اختبارات المسابقة
-        </HashLink>
+        <HashLink to="/#tasks">اختبارات المسابقة</HashLink>
       </p>
       <p>
-        <HashLink to="/kalbonyanElmarsosWebsite/#way">طريقة التسجيل</HashLink>
+        <HashLink to="/#way">طريقة التسجيل</HashLink>
       </p>
       <p>
-        <HashLink to="/kalbonyanElmarsosWebsite/#winner">الفائزون</HashLink>
+        <HashLink to="/#winner">الفائزون</HashLink>
       </p>
     </>
   );
@@ -40,7 +38,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="navbar-links">
         <div className="navbar-links-logo">
-          <Link to="/kalbonyanElmarsosWebsite">
+          <Link to="">
             <img src={logo} alt="logo" />
           </Link>
         </div>

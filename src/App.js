@@ -13,7 +13,6 @@ function App() {
 
   useEffect(() => {
     setLoading(true);
-
     setTimeout(() => {
       setLoading(false);
     }, 2000);
@@ -26,11 +25,8 @@ function App() {
         <>
           <Navbar />
           <Routes>
-            <Route path="/kalbonyanElmarsosWebsite" element={<HomePage />} />
-            <Route
-              path="/kalbonyanElmarsosWebsite/winners"
-              element={<WinnersPage />}
-            />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/winners" element={<WinnersPage />} />
           </Routes>
           <Footer />
           <ScrollTop />
