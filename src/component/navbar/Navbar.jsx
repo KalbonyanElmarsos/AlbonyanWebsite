@@ -22,10 +22,10 @@ const Menu = () => {
         <HashLink to="/#tasks">اختبارات المسابقة</HashLink>
       </p>
       <p>
-        <HashLink to="/#way">طريقة التسجيل</HashLink>
+        <HashLink to="/#winner">الفائزون</HashLink>
       </p>
       <p>
-        <HashLink to="/#winner">الفائزون</HashLink>
+        <HashLink to="/#way">طريقة التسجيل</HashLink>
       </p>
     </>
   );

@@ -206,7 +206,7 @@ h1,
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(
     320deg,
-    rgba(49, 50, 145, 1) 0%,
+    rgb(76, 78, 196) 10%,
     rgba(97, 173, 106, 1) 90%
   );
 }

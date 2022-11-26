@@ -7,13 +7,15 @@ import "swiper/css/navigation";
 
 import { EffectCoverflow, Pagination, Navigation } from "swiper/core";
 
-import mansourKoura from "../../assest/winners/mansourKoura.jpg";
-import YousefMohamed from "../../assest/winners/YousefMohamed.jpg";
-import hassan from "../../assest/team/hassan.jpg";
-import ahmedBahaa from "../../assest/team/ahmedBahaa.jpg";
-import sahlSaad from "../../assest/team/sahlSaad.jpg";
-import ahmedFathi from "../../assest/team/ahmedFathi.jpg";
-import mohamedSaid from "../../assest/winners/mohamedSaid.jpg";
+import {
+  mansourKoura,
+  YousefMohamed,
+  hassan,
+  ahmedBahaa,
+  sahlSaad,
+  ahmedFathi,
+  mohamedSaid,
+} from "../../assest";
 import CardWinners from "../../tools/cardWinners/CardWinners";
 import "./team.css";
 //

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import ReactImageZoom from "react-image-zoom";
+// import ReactImageZoom from "react-image-zoom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { TbArrowBigLeftLines } from "react-icons/tb";

@@ -1,0 +1,23 @@
+.notFound {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* gap: 1rem; */
+  /* margin-top: 7rem; */
+  padding-top: 3rem;
+  /* padding-bottom: 7rem; */
+}
+.notFound h1 {
+  color: var(--color-one);
+  text-align: center;
+}
+.notFound img {
+  width: 250px;
+}
+@media (max-width: 450px) {
+  .notFound h1 {
+    font-size: 1.5rem;
+  }
+}

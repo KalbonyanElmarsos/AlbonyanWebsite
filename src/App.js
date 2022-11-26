@@ -7,6 +7,7 @@ import HomePage from "./pages/HomePage";
 import WinnersPage from "./pages/winnersPage/WinnersPage";
 import "./App.css";
 import Loader from "./component/loader/Loader";
+import NotFoundPage from "./pages/notFoundPage/NotFoundPage";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -27,6 +28,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/winners" element={<WinnersPage />} />
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
           <Footer />
           <ScrollTop />

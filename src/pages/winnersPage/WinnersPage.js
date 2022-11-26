@@ -1,36 +1,37 @@
 import React from "react";
 import CardWinners from "../../tools/cardWinners/CardWinners";
-import AhmedMansour from "../../assest/winners/AhmedMansour.jpg";
-import AhmedSamir from "../../assest/winners/AhmedSamir.jpg";
-import FetianAnas from "../../assest/winners/FetianAnas.jpg";
-import mansourKoura from "../../assest/winners/mansourKoura.jpg";
-import MohamedTanash from "../../assest/winners/MohamedTanash.jpg";
-import YousefMohamed from "../../assest/winners/YousefMohamed.jpg";
-import Abdelraman from "../../assest/winners/abdelrahmAhmed.jpg";
-import AbdelramanHagras from "../../assest/winners/abderlahmanHagrasy.jpg";
-import AliNabil from "../../assest/winners/aliNabil.jpg";
-import AhmedMohamed from "../../assest/winners/ahmedMohamed.jpg";
-import AhmedEid from "../../assest/winners/ahmedEid.jpg";
-import AhmedHany from "../../assest/winners/ahmedHany.jpg";
-import SalahMohamed from "../../assest/winners/salahMohamed.png";
-import omerSherif from "../../assest/winners/omerSherif.jpg";
-import mohamedEldaher from "../../assest/winners/mohamedEldaher.jpg";
-import mostafaHamdy from "../../assest/winners/mostafahamdy.jpg";
-import yehia from "../../assest/winners/yehia.jpg";
-import yousefTarek from "../../assest/winners/yousefTarek.jpg";
-import mohamedSaid from "../../assest/winners/mohamedSaid.jpg";
-import mahmoudFarag from "../../assest/winners/mahmoudFarag.jpg";
-import mahmoudKhaled from "../../assest/winners/mahmoudkaled.jpg";
-import anasYousef from "../../assest/winners/anasYoussef.jpg";
-import mahmoudMohamed from "../../assest/winners/mahmoud05.jpg";
-import YousefShaban from "../../assest/winners/yousefShaban.jpg";
-import AmmarSaied from "../../assest/winners/ammarSaied.jpg";
-import Abdallah from "../../assest/winners/abdallah.jpg";
-import Torky from "../../assest/winners/torky.jpg";
-import amrHidden from "../../assest/winners/amrHidden.jpg";
-import Flower from "../../assest/winners/flower.jpg";
-import niqapgirl from "../../assest/winners/nigabGril.jpg";
-
+import {
+  mansourKoura,
+  YousefMohamed,
+  mohamedSaid,
+  AhmedMansour,
+  AhmedSamir,
+  FetianAnas,
+  MohamedTanash,
+  Abdelraman,
+  AbdelramanHagras,
+  AliNabil,
+  ahmedMohamed,
+  ahmedEid,
+  ahmedHany,
+  SalahMohamed,
+  omerSherif,
+  mohamedEldaher,
+  yehia,
+  yousefTarek,
+  mahmoudFarag,
+  mahmoudKhaled,
+  anasYousef,
+  mahmoudMohamed,
+  YousefShaban,
+  AmmarSaied,
+  Abdallah,
+  Torky,
+  amrHidden,
+  mostafahamdy,
+  Flower,
+  niqapgirl,
+} from "../../assest";
 import "./winnerPage.css";
 
 const WinnersPage = () => {
@@ -103,17 +104,17 @@ const WinnersPage = () => {
       <h1>الخريجون من الدفعة الثانية </h1>
       <div className="winnersPage-content">
         <CardWinners
-          image={AhmedMohamed}
+          image={ahmedMohamed}
           name="أحمد محمد"
           linkedInLink="https://www.linkedin.com/in/ahmed-mohamed-859802210/"
         />
         <CardWinners
-          image={AhmedEid}
+          image={ahmedEid}
           name="أحمد عيد"
           linkedInLink="https://www.linkedin.com/in/ahmed-eid-568051229/"
         />
         <CardWinners
-          image={AhmedHany}
+          image={ahmedHany}
           name="أحمد هاني"
           linkedInLink="https://www.linkedin.com/in/ahemd-hany-9bb233214/"
         />
@@ -148,7 +149,7 @@ const WinnersPage = () => {
           linkedInLink="https://www.linkedin.com/in/mohammed-aldaher-9a834b206/"
         />
         <CardWinners
-          image={mostafaHamdy}
+          image={mostafahamdy}
           name="  مصطفي حمدي"
           linkedInLink="https://www.linkedin.com/in/mostafa-hamdy-5b793b206/"
         />
