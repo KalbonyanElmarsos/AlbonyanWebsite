@@ -30,7 +30,7 @@ const Way = () => {
             className="btn-green"
             href="#"
             rel="noreferrer"
-            target="_blank"
+            // target="_blank"
           >
             الاستبيان
           </a>
