@@ -120,10 +120,10 @@ const Subject = () => {
           />
           <TrCourse
             number="11"
-            link="https://www.udemy.com/course/serverless-functions-with-netlify/?referralCode=D20939E2CD569529F2AB"
+            link="https://www.youtube.com/watch?v=AfAZ33XjIBU&feature=youtu.be&ab_channel=CodingAddict"
             name="Serverless Functions with Netlify"
-            platFrom="Cloud Guru"
-            hours="7h"
+            platFrom="Youtube"
+            hours="4h 27m"
           />
           {/* </>
           ) : (
