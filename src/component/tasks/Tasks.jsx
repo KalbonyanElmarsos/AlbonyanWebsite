@@ -48,7 +48,7 @@ const Tasks = () => {
                   كورس علي ريبو كالبنيان المرصوص
                 </li>
                 <li>
-                  خمس شهادات من Udemy وشهادة من Cloud Guru و شهادتان من
+                  ست شهادات من Udemy وشهادة من Cloud Guru و شهادتان من
                   Linkedin Learning
                 </li>
                 <li>إنشاء Portfolio كهذا المثال </li>
