@@ -67,6 +67,7 @@ const Team = () => {
             linkedInLink="https://www.linkedin.com/in/hassan-mahmoud-0b8695173/"
           />
         </SwiperSlide>
+
         <SwiperSlide>
           <CardWinners
             image={mohamedSaid}
@@ -74,20 +75,7 @@ const Team = () => {
             linkedInLink="https://www.linkedin.com/in/mohamed-said-5a599b234/"
           />
         </SwiperSlide>
-        <SwiperSlide>
-          <CardWinners
-            image={ahmedBahaa}
-            name="أحمد بهاء"
-            linkedInLink="https://www.linkedin.com/in/ahmed-bahaa-031929147/"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <CardWinners
-            image={sahlSaad}
-            name="سهل سعد"
-            linkedInLink="https://www.linkedin.com/in/sahl-saad/"
-          />
-        </SwiperSlide>
+
         <SwiperSlide>
           <CardWinners
             image={mansourKoura}
@@ -95,6 +83,7 @@ const Team = () => {
             linkedInLink="https://www.linkedin.com/in/manssorr/"
           />
         </SwiperSlide>
+
       </Swiper>
     </section>
   );
