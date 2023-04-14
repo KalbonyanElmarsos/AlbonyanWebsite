@@ -113,7 +113,7 @@ const Subject = () => {
           <TrTitle title="Learn about Cloud Provider and Serverless" />
           <TrCourse
             number="10"
-            link="https://acloud.guru/overview/aws--certified-cloud-practitioner"
+            link="https://learn.acloud.guru/course/aws--certified-cloud-practitioner/overview"
             name="AWS Certified Cloud Practitioner (CLF-C01)"
             platFrom="Cloud Guru"
             hours="16h 12m"
