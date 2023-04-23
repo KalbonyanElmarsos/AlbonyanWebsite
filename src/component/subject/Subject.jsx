@@ -58,10 +58,10 @@ const Subject = () => {
           />
           <TrCourse
             number="4"
-            link="https://www.udemy.com/course/git-expert-4-hours/"
-            name="Git: Become an Expert in Git & GitHub"
-            platFrom="Udemy"
-            hours="4h"
+            link="https://almdrasa.com/tracks/programming-foundations/courses/git-github/"
+            name="Git and Github"
+            platFrom="Almdrasa"
+            hours="2h"
           />
 
           {/* js */}
@@ -125,6 +125,16 @@ const Subject = () => {
             platFrom="Youtube"
             hours="4h 27m"
           />
+               {/* chat-gpt */}
+           <TrTitle title="Additional Courses" />
+            <TrCourse
+            number="12"
+            link="https://almdrasa.com/tracks/ai/courses/chatgpt"
+            name="Basics of ChatGPT"
+            platFrom="Almdrasa"
+            hours="1h 8m"
+          />
+             
           {/* </>
           ) : (
             ""
