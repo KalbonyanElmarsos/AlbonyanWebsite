@@ -61,7 +61,7 @@ const Subject = () => {
             link="https://almdrasa.com/tracks/programming-foundations/courses/git-github/"
             name="Git and Github"
             platFrom="Almdrasa"
-            hours="2h"
+            hours="3h 27m"
           />
 
           {/* js */}
